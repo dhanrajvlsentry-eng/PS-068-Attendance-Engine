@@ -1,0 +1,1426 @@
+student_id,student_name,section,course_id,course_name,is_lab,conducted_periods,present_periods,absent_periods,percentage,eligible
+24CS0001,Suresh Das,A,CS101,Engineering Mathematics I,NO,31,27,4,87.10,YES
+24CS0001,Suresh Das,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0001,Suresh Das,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0001,Suresh Das,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0001,Suresh Das,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0001,Suresh Das,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0001,Suresh Das,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0001,Suresh Das,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0001,Suresh Das,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0001,Suresh Das,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0001,Suresh Das,A,CS114,Theory of Computation,NO,39,28,11,71.79,NO
+24CS0001,Suresh Das,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0001,Suresh Das,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0001,Suresh Das,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0001,Suresh Das,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0001,Suresh Das,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0001,Suresh Das,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0001,Suresh Das,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0001,Suresh Das,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0002,Ishaan Iyer,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0002,Ishaan Iyer,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0002,Ishaan Iyer,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0002,Ishaan Iyer,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0002,Ishaan Iyer,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0002,Ishaan Iyer,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0002,Ishaan Iyer,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0002,Ishaan Iyer,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0002,Ishaan Iyer,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0002,Ishaan Iyer,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0002,Ishaan Iyer,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0002,Ishaan Iyer,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0002,Ishaan Iyer,A,CS117,Machine Learning,NO,39,34,5,87.18,YES
+24CS0002,Ishaan Iyer,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0002,Ishaan Iyer,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0002,Ishaan Iyer,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0002,Ishaan Iyer,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0002,Ishaan Iyer,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0002,Ishaan Iyer,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0003,Uma Verma,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0003,Uma Verma,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0003,Uma Verma,A,CS104,Programming in C,NO,27,20,7,74.07,NO
+24CS0003,Uma Verma,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0003,Uma Verma,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0003,Uma Verma,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0003,Uma Verma,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0003,Uma Verma,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0003,Uma Verma,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0003,Uma Verma,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0003,Uma Verma,A,CS114,Theory of Computation,NO,39,32,7,82.05,YES
+24CS0003,Uma Verma,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0003,Uma Verma,A,CS117,Machine Learning,NO,39,28,11,71.79,NO
+24CS0003,Uma Verma,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0003,Uma Verma,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0003,Uma Verma,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0003,Uma Verma,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0003,Uma Verma,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0003,Uma Verma,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0004,Akash Agarwal,A,CS101,Engineering Mathematics I,NO,30,29,1,96.67,YES
+24CS0004,Akash Agarwal,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0004,Akash Agarwal,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0004,Akash Agarwal,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0004,Akash Agarwal,A,CS107,Computer Organisation,NO,24,23,1,95.83,YES
+24CS0004,Akash Agarwal,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0004,Akash Agarwal,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0004,Akash Agarwal,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0004,Akash Agarwal,A,CS111,Operating Systems,NO,29,27,2,93.10,YES
+24CS0004,Akash Agarwal,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0004,Akash Agarwal,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0004,Akash Agarwal,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0004,Akash Agarwal,A,CS117,Machine Learning,NO,39,36,3,92.31,YES
+24CS0004,Akash Agarwal,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0004,Akash Agarwal,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0004,Akash Agarwal,A,CS192,Chemistry Lab,YES,60,60,0,100.00,YES
+24CS0004,Akash Agarwal,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0004,Akash Agarwal,A,CS194,Data Structures Lab,YES,48,48,0,100.00,YES
+24CS0004,Akash Agarwal,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0005,Ravi Sharma,A,CS101,Engineering Mathematics I,NO,30,17,13,56.67,NO
+24CS0005,Ravi Sharma,A,CS102,Physics for Engineers,NO,12,6,6,50.00,NO
+24CS0005,Ravi Sharma,A,CS104,Programming in C,NO,27,19,8,70.37,NO
+24CS0005,Ravi Sharma,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0005,Ravi Sharma,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0005,Ravi Sharma,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0005,Ravi Sharma,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0005,Ravi Sharma,A,CS110,Database Management Systems,NO,25,15,10,60.00,NO
+24CS0005,Ravi Sharma,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0005,Ravi Sharma,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0005,Ravi Sharma,A,CS114,Theory of Computation,NO,39,26,13,66.67,NO
+24CS0005,Ravi Sharma,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0005,Ravi Sharma,A,CS117,Machine Learning,NO,39,27,12,69.23,NO
+24CS0005,Ravi Sharma,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0005,Ravi Sharma,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0005,Ravi Sharma,A,CS192,Chemistry Lab,YES,60,36,24,60.00,NO
+24CS0005,Ravi Sharma,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0005,Ravi Sharma,A,CS194,Data Structures Lab,YES,48,42,6,87.50,YES
+24CS0005,Ravi Sharma,A,CS195,DBMS Lab,YES,48,28,20,58.33,NO
+24CS0006,Vijay Singh,A,CS101,Engineering Mathematics I,NO,30,27,3,90.00,YES
+24CS0006,Vijay Singh,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0006,Vijay Singh,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0006,Vijay Singh,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0006,Vijay Singh,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0006,Vijay Singh,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0006,Vijay Singh,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0006,Vijay Singh,A,CS110,Database Management Systems,NO,25,25,0,100.00,YES
+24CS0006,Vijay Singh,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0006,Vijay Singh,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0006,Vijay Singh,A,CS114,Theory of Computation,NO,39,35,4,89.74,YES
+24CS0006,Vijay Singh,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0006,Vijay Singh,A,CS117,Machine Learning,NO,39,36,3,92.31,YES
+24CS0006,Vijay Singh,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0006,Vijay Singh,A,CS191,Physics Lab,YES,52,52,0,100.00,YES
+24CS0006,Vijay Singh,A,CS192,Chemistry Lab,YES,60,56,4,93.33,YES
+24CS0006,Vijay Singh,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0006,Vijay Singh,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0006,Vijay Singh,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0007,Shreya Jain,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0007,Shreya Jain,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0007,Shreya Jain,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0007,Shreya Jain,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0007,Shreya Jain,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0007,Shreya Jain,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0007,Shreya Jain,A,CS109,Object Oriented Programming,NO,13,5,8,38.46,NO
+24CS0007,Shreya Jain,A,CS110,Database Management Systems,NO,25,12,13,48.00,NO
+24CS0007,Shreya Jain,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0007,Shreya Jain,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0007,Shreya Jain,A,CS114,Theory of Computation,NO,39,23,16,58.97,NO
+24CS0007,Shreya Jain,A,CS116,Artificial Intelligence,NO,13,6,7,46.15,NO
+24CS0007,Shreya Jain,A,CS117,Machine Learning,NO,39,26,13,66.67,NO
+24CS0007,Shreya Jain,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0007,Shreya Jain,A,CS191,Physics Lab,YES,52,24,28,46.15,NO
+24CS0007,Shreya Jain,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0007,Shreya Jain,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0007,Shreya Jain,A,CS194,Data Structures Lab,YES,48,38,10,79.17,YES
+24CS0007,Shreya Jain,A,CS195,DBMS Lab,YES,48,28,20,58.33,NO
+24CS0008,Dhruv Srivastava,A,CS101,Engineering Mathematics I,NO,30,29,1,96.67,YES
+24CS0008,Dhruv Srivastava,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0008,Dhruv Srivastava,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0008,Dhruv Srivastava,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0008,Dhruv Srivastava,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS110,Database Management Systems,NO,25,25,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS111,Operating Systems,NO,29,27,2,93.10,YES
+24CS0008,Dhruv Srivastava,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0008,Dhruv Srivastava,A,CS114,Theory of Computation,NO,39,36,3,92.31,YES
+24CS0008,Dhruv Srivastava,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS117,Machine Learning,NO,39,37,2,94.87,YES
+24CS0008,Dhruv Srivastava,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0008,Dhruv Srivastava,A,CS191,Physics Lab,YES,52,52,0,100.00,YES
+24CS0008,Dhruv Srivastava,A,CS192,Chemistry Lab,YES,60,56,4,93.33,YES
+24CS0008,Dhruv Srivastava,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0008,Dhruv Srivastava,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0008,Dhruv Srivastava,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0009,Deepika Gupta,A,CS101,Engineering Mathematics I,NO,30,14,16,46.67,NO
+24CS0009,Deepika Gupta,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0009,Deepika Gupta,A,CS104,Programming in C,NO,27,15,12,55.56,NO
+24CS0009,Deepika Gupta,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0009,Deepika Gupta,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0009,Deepika Gupta,A,CS108,Discrete Mathematics,NO,41,28,13,68.29,NO
+24CS0009,Deepika Gupta,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0009,Deepika Gupta,A,CS110,Database Management Systems,NO,25,16,9,64.00,NO
+24CS0009,Deepika Gupta,A,CS111,Operating Systems,NO,29,17,12,58.62,NO
+24CS0009,Deepika Gupta,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0009,Deepika Gupta,A,CS114,Theory of Computation,NO,39,26,13,66.67,NO
+24CS0009,Deepika Gupta,A,CS116,Artificial Intelligence,NO,13,7,6,53.85,NO
+24CS0009,Deepika Gupta,A,CS117,Machine Learning,NO,39,20,19,51.28,NO
+24CS0009,Deepika Gupta,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0009,Deepika Gupta,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0009,Deepika Gupta,A,CS192,Chemistry Lab,YES,60,24,36,40.00,NO
+24CS0009,Deepika Gupta,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0009,Deepika Gupta,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0009,Deepika Gupta,A,CS195,DBMS Lab,YES,48,34,14,70.83,NO
+24CS0010,Nandini Das,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0010,Nandini Das,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0010,Nandini Das,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0010,Nandini Das,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0010,Nandini Das,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0010,Nandini Das,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0010,Nandini Das,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0010,Nandini Das,A,CS110,Database Management Systems,NO,25,23,2,92.00,YES
+24CS0010,Nandini Das,A,CS111,Operating Systems,NO,29,26,3,89.66,YES
+24CS0010,Nandini Das,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0010,Nandini Das,A,CS114,Theory of Computation,NO,39,35,4,89.74,YES
+24CS0010,Nandini Das,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0010,Nandini Das,A,CS117,Machine Learning,NO,39,34,5,87.18,YES
+24CS0010,Nandini Das,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0010,Nandini Das,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0010,Nandini Das,A,CS192,Chemistry Lab,YES,60,54,6,90.00,YES
+24CS0010,Nandini Das,A,CS193,Programming in C Lab,YES,56,52,4,92.86,YES
+24CS0010,Nandini Das,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0010,Nandini Das,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0011,Siddharth Jain,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0011,Siddharth Jain,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0011,Siddharth Jain,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0011,Siddharth Jain,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0011,Siddharth Jain,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0011,Siddharth Jain,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0011,Siddharth Jain,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0011,Siddharth Jain,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0011,Siddharth Jain,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0011,Siddharth Jain,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0011,Siddharth Jain,A,CS114,Theory of Computation,NO,39,30,9,76.92,YES
+24CS0011,Siddharth Jain,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0011,Siddharth Jain,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0011,Siddharth Jain,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0011,Siddharth Jain,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0011,Siddharth Jain,A,CS192,Chemistry Lab,YES,60,40,20,66.67,NO
+24CS0011,Siddharth Jain,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0011,Siddharth Jain,A,CS194,Data Structures Lab,YES,48,38,10,79.17,YES
+24CS0011,Siddharth Jain,A,CS195,DBMS Lab,YES,48,30,18,62.50,NO
+24CS0012,Sakshi Das,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0012,Sakshi Das,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0012,Sakshi Das,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0012,Sakshi Das,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0012,Sakshi Das,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0012,Sakshi Das,A,CS108,Discrete Mathematics,NO,41,34,7,82.93,YES
+24CS0012,Sakshi Das,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0012,Sakshi Das,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0012,Sakshi Das,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0012,Sakshi Das,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0012,Sakshi Das,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0012,Sakshi Das,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0012,Sakshi Das,A,CS117,Machine Learning,NO,39,34,5,87.18,YES
+24CS0012,Sakshi Das,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0012,Sakshi Das,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0012,Sakshi Das,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0012,Sakshi Das,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0012,Sakshi Das,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0012,Sakshi Das,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0013,Kavya Singh,A,CS101,Engineering Mathematics I,NO,30,20,10,66.67,NO
+24CS0013,Kavya Singh,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0013,Kavya Singh,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0013,Kavya Singh,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0013,Kavya Singh,A,CS107,Computer Organisation,NO,24,23,1,95.83,YES
+24CS0013,Kavya Singh,A,CS108,Discrete Mathematics,NO,41,36,5,87.80,YES
+24CS0013,Kavya Singh,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0013,Kavya Singh,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0013,Kavya Singh,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0013,Kavya Singh,A,CS113,Software Engineering,NO,12,12,0,100.00,YES
+24CS0013,Kavya Singh,A,CS114,Theory of Computation,NO,39,32,7,82.05,YES
+24CS0013,Kavya Singh,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0013,Kavya Singh,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0013,Kavya Singh,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0013,Kavya Singh,A,CS191,Physics Lab,YES,52,38,14,73.08,NO
+24CS0013,Kavya Singh,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0013,Kavya Singh,A,CS193,Programming in C Lab,YES,56,50,6,89.29,YES
+24CS0013,Kavya Singh,A,CS194,Data Structures Lab,YES,48,48,0,100.00,YES
+24CS0013,Kavya Singh,A,CS195,DBMS Lab,YES,48,44,4,91.67,YES
+24CS0014,Vijay Chakraborty,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0014,Vijay Chakraborty,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0014,Vijay Chakraborty,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0014,Vijay Chakraborty,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS110,Database Management Systems,NO,25,24,1,96.00,YES
+24CS0014,Vijay Chakraborty,A,CS111,Operating Systems,NO,29,27,2,93.10,YES
+24CS0014,Vijay Chakraborty,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0014,Vijay Chakraborty,A,CS114,Theory of Computation,NO,39,37,2,94.87,YES
+24CS0014,Vijay Chakraborty,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0014,Vijay Chakraborty,A,CS117,Machine Learning,NO,39,38,1,97.44,YES
+24CS0014,Vijay Chakraborty,A,CS118,Web Technologies,NO,14,14,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS191,Physics Lab,YES,52,52,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS192,Chemistry Lab,YES,60,60,0,100.00,YES
+24CS0014,Vijay Chakraborty,A,CS193,Programming in C Lab,YES,56,54,2,96.43,YES
+24CS0014,Vijay Chakraborty,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0014,Vijay Chakraborty,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0015,Kavya Chakraborty,A,CS101,Engineering Mathematics I,NO,30,21,9,70.00,NO
+24CS0015,Kavya Chakraborty,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0015,Kavya Chakraborty,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0015,Kavya Chakraborty,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0015,Kavya Chakraborty,A,CS107,Computer Organisation,NO,24,20,4,83.33,YES
+24CS0015,Kavya Chakraborty,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0015,Kavya Chakraborty,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0015,Kavya Chakraborty,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0015,Kavya Chakraborty,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0015,Kavya Chakraborty,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0015,Kavya Chakraborty,A,CS114,Theory of Computation,NO,39,28,11,71.79,NO
+24CS0015,Kavya Chakraborty,A,CS116,Artificial Intelligence,NO,13,7,6,53.85,NO
+24CS0015,Kavya Chakraborty,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0015,Kavya Chakraborty,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0015,Kavya Chakraborty,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0015,Kavya Chakraborty,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0015,Kavya Chakraborty,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0015,Kavya Chakraborty,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0015,Kavya Chakraborty,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0016,Nandini Jain,A,CS101,Engineering Mathematics I,NO,30,27,3,90.00,YES
+24CS0016,Nandini Jain,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0016,Nandini Jain,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0016,Nandini Jain,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0016,Nandini Jain,A,CS107,Computer Organisation,NO,24,24,0,100.00,YES
+24CS0016,Nandini Jain,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0016,Nandini Jain,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0016,Nandini Jain,A,CS110,Database Management Systems,NO,25,25,0,100.00,YES
+24CS0016,Nandini Jain,A,CS111,Operating Systems,NO,29,28,1,96.55,YES
+24CS0016,Nandini Jain,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0016,Nandini Jain,A,CS114,Theory of Computation,NO,39,36,3,92.31,YES
+24CS0016,Nandini Jain,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0016,Nandini Jain,A,CS117,Machine Learning,NO,39,38,1,97.44,YES
+24CS0016,Nandini Jain,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0016,Nandini Jain,A,CS191,Physics Lab,YES,52,52,0,100.00,YES
+24CS0016,Nandini Jain,A,CS192,Chemistry Lab,YES,60,60,0,100.00,YES
+24CS0016,Nandini Jain,A,CS193,Programming in C Lab,YES,56,50,6,89.29,YES
+24CS0016,Nandini Jain,A,CS194,Data Structures Lab,YES,48,48,0,100.00,YES
+24CS0016,Nandini Jain,A,CS195,DBMS Lab,YES,48,44,4,91.67,YES
+24CS0017,Mohit Gandhi,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0017,Mohit Gandhi,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0017,Mohit Gandhi,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0017,Mohit Gandhi,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0017,Mohit Gandhi,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0017,Mohit Gandhi,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0017,Mohit Gandhi,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0017,Mohit Gandhi,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0017,Mohit Gandhi,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0017,Mohit Gandhi,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0017,Mohit Gandhi,A,CS114,Theory of Computation,NO,39,30,9,76.92,YES
+24CS0017,Mohit Gandhi,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0017,Mohit Gandhi,A,CS117,Machine Learning,NO,39,28,11,71.79,NO
+24CS0017,Mohit Gandhi,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0017,Mohit Gandhi,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0017,Mohit Gandhi,A,CS192,Chemistry Lab,YES,60,46,14,76.67,YES
+24CS0017,Mohit Gandhi,A,CS193,Programming in C Lab,YES,56,38,18,67.86,NO
+24CS0017,Mohit Gandhi,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0017,Mohit Gandhi,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0018,Tejas Jain,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0018,Tejas Jain,A,CS102,Physics for Engineers,NO,12,6,6,50.00,NO
+24CS0018,Tejas Jain,A,CS104,Programming in C,NO,27,20,7,74.07,NO
+24CS0018,Tejas Jain,A,CS105,Digital Logic Design,NO,12,6,6,50.00,NO
+24CS0018,Tejas Jain,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0018,Tejas Jain,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0018,Tejas Jain,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0018,Tejas Jain,A,CS110,Database Management Systems,NO,25,15,10,60.00,NO
+24CS0018,Tejas Jain,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0018,Tejas Jain,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0018,Tejas Jain,A,CS114,Theory of Computation,NO,39,26,13,66.67,NO
+24CS0018,Tejas Jain,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0018,Tejas Jain,A,CS117,Machine Learning,NO,39,26,13,66.67,NO
+24CS0018,Tejas Jain,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0018,Tejas Jain,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0018,Tejas Jain,A,CS192,Chemistry Lab,YES,60,40,20,66.67,NO
+24CS0018,Tejas Jain,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0018,Tejas Jain,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0018,Tejas Jain,A,CS195,DBMS Lab,YES,48,24,24,50.00,NO
+24CS0019,Dhruv Rao,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0019,Dhruv Rao,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0019,Dhruv Rao,A,CS104,Programming in C,NO,27,18,9,66.67,NO
+24CS0019,Dhruv Rao,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0019,Dhruv Rao,A,CS107,Computer Organisation,NO,24,11,13,45.83,NO
+24CS0019,Dhruv Rao,A,CS108,Discrete Mathematics,NO,41,18,23,43.90,NO
+24CS0019,Dhruv Rao,A,CS109,Object Oriented Programming,NO,13,7,6,53.85,NO
+24CS0019,Dhruv Rao,A,CS110,Database Management Systems,NO,25,16,9,64.00,NO
+24CS0019,Dhruv Rao,A,CS111,Operating Systems,NO,29,19,10,65.52,NO
+24CS0019,Dhruv Rao,A,CS113,Software Engineering,NO,12,6,6,50.00,NO
+24CS0019,Dhruv Rao,A,CS114,Theory of Computation,NO,39,21,18,53.85,NO
+24CS0019,Dhruv Rao,A,CS116,Artificial Intelligence,NO,13,7,6,53.85,NO
+24CS0019,Dhruv Rao,A,CS117,Machine Learning,NO,39,23,16,58.97,NO
+24CS0019,Dhruv Rao,A,CS118,Web Technologies,NO,14,6,8,42.86,NO
+24CS0019,Dhruv Rao,A,CS191,Physics Lab,YES,52,30,22,57.69,NO
+24CS0019,Dhruv Rao,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0019,Dhruv Rao,A,CS193,Programming in C Lab,YES,56,22,34,39.29,NO
+24CS0019,Dhruv Rao,A,CS194,Data Structures Lab,YES,48,22,26,45.83,NO
+24CS0019,Dhruv Rao,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0020,Nandini Jain,A,CS101,Engineering Mathematics I,NO,30,28,2,93.33,YES
+24CS0020,Nandini Jain,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0020,Nandini Jain,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0020,Nandini Jain,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0020,Nandini Jain,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0020,Nandini Jain,A,CS108,Discrete Mathematics,NO,41,37,4,90.24,YES
+24CS0020,Nandini Jain,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0020,Nandini Jain,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0020,Nandini Jain,A,CS111,Operating Systems,NO,29,28,1,96.55,YES
+24CS0020,Nandini Jain,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0020,Nandini Jain,A,CS114,Theory of Computation,NO,39,35,4,89.74,YES
+24CS0020,Nandini Jain,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0020,Nandini Jain,A,CS117,Machine Learning,NO,39,35,4,89.74,YES
+24CS0020,Nandini Jain,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0020,Nandini Jain,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0020,Nandini Jain,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0020,Nandini Jain,A,CS193,Programming in C Lab,YES,56,50,6,89.29,YES
+24CS0020,Nandini Jain,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0020,Nandini Jain,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0021,Ananya Iyer,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0021,Ananya Iyer,A,CS102,Physics for Engineers,NO,12,6,6,50.00,NO
+24CS0021,Ananya Iyer,A,CS104,Programming in C,NO,27,14,13,51.85,NO
+24CS0021,Ananya Iyer,A,CS105,Digital Logic Design,NO,12,6,6,50.00,NO
+24CS0021,Ananya Iyer,A,CS107,Computer Organisation,NO,24,13,11,54.17,NO
+24CS0021,Ananya Iyer,A,CS108,Discrete Mathematics,NO,41,22,19,53.66,NO
+24CS0021,Ananya Iyer,A,CS109,Object Oriented Programming,NO,13,5,8,38.46,NO
+24CS0021,Ananya Iyer,A,CS110,Database Management Systems,NO,25,12,13,48.00,NO
+24CS0021,Ananya Iyer,A,CS111,Operating Systems,NO,29,16,13,55.17,NO
+24CS0021,Ananya Iyer,A,CS113,Software Engineering,NO,12,6,6,50.00,NO
+24CS0021,Ananya Iyer,A,CS114,Theory of Computation,NO,39,18,21,46.15,NO
+24CS0021,Ananya Iyer,A,CS116,Artificial Intelligence,NO,13,6,7,46.15,NO
+24CS0021,Ananya Iyer,A,CS117,Machine Learning,NO,39,21,18,53.85,NO
+24CS0021,Ananya Iyer,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0021,Ananya Iyer,A,CS191,Physics Lab,YES,52,24,28,46.15,NO
+24CS0021,Ananya Iyer,A,CS192,Chemistry Lab,YES,60,30,30,50.00,NO
+24CS0021,Ananya Iyer,A,CS193,Programming in C Lab,YES,56,28,28,50.00,NO
+24CS0021,Ananya Iyer,A,CS194,Data Structures Lab,YES,48,28,20,58.33,NO
+24CS0021,Ananya Iyer,A,CS195,DBMS Lab,YES,48,24,24,50.00,NO
+24CS0022,Nikhil Jain,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0022,Nikhil Jain,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0022,Nikhil Jain,A,CS104,Programming in C,NO,27,15,12,55.56,NO
+24CS0022,Nikhil Jain,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0022,Nikhil Jain,A,CS107,Computer Organisation,NO,24,15,9,62.50,NO
+24CS0022,Nikhil Jain,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0022,Nikhil Jain,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0022,Nikhil Jain,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0022,Nikhil Jain,A,CS111,Operating Systems,NO,29,17,12,58.62,NO
+24CS0022,Nikhil Jain,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0022,Nikhil Jain,A,CS114,Theory of Computation,NO,39,24,15,61.54,NO
+24CS0022,Nikhil Jain,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0022,Nikhil Jain,A,CS117,Machine Learning,NO,39,22,17,56.41,NO
+24CS0022,Nikhil Jain,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0022,Nikhil Jain,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0022,Nikhil Jain,A,CS192,Chemistry Lab,YES,60,30,30,50.00,NO
+24CS0022,Nikhil Jain,A,CS193,Programming in C Lab,YES,56,32,24,57.14,NO
+24CS0022,Nikhil Jain,A,CS194,Data Structures Lab,YES,48,30,18,62.50,NO
+24CS0022,Nikhil Jain,A,CS195,DBMS Lab,YES,48,26,22,54.17,NO
+24CS0023,Sanjay Srivastava,A,CS101,Engineering Mathematics I,NO,30,20,10,66.67,NO
+24CS0023,Sanjay Srivastava,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0023,Sanjay Srivastava,A,CS104,Programming in C,NO,27,15,12,55.56,NO
+24CS0023,Sanjay Srivastava,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0023,Sanjay Srivastava,A,CS107,Computer Organisation,NO,24,10,14,41.67,NO
+24CS0023,Sanjay Srivastava,A,CS108,Discrete Mathematics,NO,41,18,23,43.90,NO
+24CS0023,Sanjay Srivastava,A,CS109,Object Oriented Programming,NO,13,4,9,30.77,NO
+24CS0023,Sanjay Srivastava,A,CS110,Database Management Systems,NO,25,10,15,40.00,NO
+24CS0023,Sanjay Srivastava,A,CS111,Operating Systems,NO,29,15,14,51.72,NO
+24CS0023,Sanjay Srivastava,A,CS113,Software Engineering,NO,12,5,7,41.67,NO
+24CS0023,Sanjay Srivastava,A,CS114,Theory of Computation,NO,39,16,23,41.03,NO
+24CS0023,Sanjay Srivastava,A,CS116,Artificial Intelligence,NO,13,4,9,30.77,NO
+24CS0023,Sanjay Srivastava,A,CS117,Machine Learning,NO,39,20,19,51.28,NO
+24CS0023,Sanjay Srivastava,A,CS118,Web Technologies,NO,14,7,7,50.00,NO
+24CS0023,Sanjay Srivastava,A,CS191,Physics Lab,YES,52,14,38,26.92,NO
+24CS0023,Sanjay Srivastava,A,CS192,Chemistry Lab,YES,60,38,22,63.33,NO
+24CS0023,Sanjay Srivastava,A,CS193,Programming in C Lab,YES,56,28,28,50.00,NO
+24CS0023,Sanjay Srivastava,A,CS194,Data Structures Lab,YES,48,20,28,41.67,NO
+24CS0023,Sanjay Srivastava,A,CS195,DBMS Lab,YES,48,28,20,58.33,NO
+24CS0024,Ramya Mehta,A,CS101,Engineering Mathematics I,NO,30,28,2,93.33,YES
+24CS0024,Ramya Mehta,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0024,Ramya Mehta,A,CS104,Programming in C,NO,27,22,5,81.48,YES
+24CS0024,Ramya Mehta,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0024,Ramya Mehta,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0024,Ramya Mehta,A,CS108,Discrete Mathematics,NO,41,31,10,75.61,YES
+24CS0024,Ramya Mehta,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0024,Ramya Mehta,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0024,Ramya Mehta,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0024,Ramya Mehta,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0024,Ramya Mehta,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0024,Ramya Mehta,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0024,Ramya Mehta,A,CS117,Machine Learning,NO,39,34,5,87.18,YES
+24CS0024,Ramya Mehta,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0024,Ramya Mehta,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0024,Ramya Mehta,A,CS192,Chemistry Lab,YES,60,54,6,90.00,YES
+24CS0024,Ramya Mehta,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0024,Ramya Mehta,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0024,Ramya Mehta,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0025,Charan Iyer,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0025,Charan Iyer,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0025,Charan Iyer,A,CS104,Programming in C,NO,27,18,9,66.67,NO
+24CS0025,Charan Iyer,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0025,Charan Iyer,A,CS107,Computer Organisation,NO,24,20,4,83.33,YES
+24CS0025,Charan Iyer,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0025,Charan Iyer,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0025,Charan Iyer,A,CS110,Database Management Systems,NO,25,24,1,96.00,YES
+24CS0025,Charan Iyer,A,CS111,Operating Systems,NO,29,19,10,65.52,NO
+24CS0025,Charan Iyer,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0025,Charan Iyer,A,CS114,Theory of Computation,NO,39,34,5,87.18,YES
+24CS0025,Charan Iyer,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0025,Charan Iyer,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0025,Charan Iyer,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0025,Charan Iyer,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0025,Charan Iyer,A,CS192,Chemistry Lab,YES,60,34,26,56.67,NO
+24CS0025,Charan Iyer,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0025,Charan Iyer,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0025,Charan Iyer,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0026,Pooja Reddy,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0026,Pooja Reddy,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0026,Pooja Reddy,A,CS104,Programming in C,NO,27,16,11,59.26,NO
+24CS0026,Pooja Reddy,A,CS105,Digital Logic Design,NO,12,6,6,50.00,NO
+24CS0026,Pooja Reddy,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0026,Pooja Reddy,A,CS108,Discrete Mathematics,NO,41,29,12,70.73,NO
+24CS0026,Pooja Reddy,A,CS109,Object Oriented Programming,NO,13,7,6,53.85,NO
+24CS0026,Pooja Reddy,A,CS110,Database Management Systems,NO,25,11,14,44.00,NO
+24CS0026,Pooja Reddy,A,CS111,Operating Systems,NO,29,19,10,65.52,NO
+24CS0026,Pooja Reddy,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0026,Pooja Reddy,A,CS114,Theory of Computation,NO,39,23,16,58.97,NO
+24CS0026,Pooja Reddy,A,CS116,Artificial Intelligence,NO,13,7,6,53.85,NO
+24CS0026,Pooja Reddy,A,CS117,Machine Learning,NO,39,25,14,64.10,NO
+24CS0026,Pooja Reddy,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0026,Pooja Reddy,A,CS191,Physics Lab,YES,52,28,24,53.85,NO
+24CS0026,Pooja Reddy,A,CS192,Chemistry Lab,YES,60,36,24,60.00,NO
+24CS0026,Pooja Reddy,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0026,Pooja Reddy,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0026,Pooja Reddy,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0027,Charan Pillai,A,CS101,Engineering Mathematics I,NO,30,29,1,96.67,YES
+24CS0027,Charan Pillai,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0027,Charan Pillai,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0027,Charan Pillai,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0027,Charan Pillai,A,CS107,Computer Organisation,NO,24,23,1,95.83,YES
+24CS0027,Charan Pillai,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0027,Charan Pillai,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0027,Charan Pillai,A,CS110,Database Management Systems,NO,25,24,1,96.00,YES
+24CS0027,Charan Pillai,A,CS111,Operating Systems,NO,29,29,0,100.00,YES
+24CS0027,Charan Pillai,A,CS113,Software Engineering,NO,12,12,0,100.00,YES
+24CS0027,Charan Pillai,A,CS114,Theory of Computation,NO,39,37,2,94.87,YES
+24CS0027,Charan Pillai,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0027,Charan Pillai,A,CS117,Machine Learning,NO,39,38,1,97.44,YES
+24CS0027,Charan Pillai,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0027,Charan Pillai,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0027,Charan Pillai,A,CS192,Chemistry Lab,YES,60,56,4,93.33,YES
+24CS0027,Charan Pillai,A,CS193,Programming in C Lab,YES,56,52,4,92.86,YES
+24CS0027,Charan Pillai,A,CS194,Data Structures Lab,YES,48,48,0,100.00,YES
+24CS0027,Charan Pillai,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0028,Ananya Das,A,CS101,Engineering Mathematics I,NO,30,27,3,90.00,YES
+24CS0028,Ananya Das,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0028,Ananya Das,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0028,Ananya Das,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0028,Ananya Das,A,CS107,Computer Organisation,NO,24,24,0,100.00,YES
+24CS0028,Ananya Das,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0028,Ananya Das,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0028,Ananya Das,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0028,Ananya Das,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0028,Ananya Das,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0028,Ananya Das,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0028,Ananya Das,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0028,Ananya Das,A,CS117,Machine Learning,NO,39,36,3,92.31,YES
+24CS0028,Ananya Das,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0028,Ananya Das,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0028,Ananya Das,A,CS192,Chemistry Lab,YES,60,54,6,90.00,YES
+24CS0028,Ananya Das,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0028,Ananya Das,A,CS194,Data Structures Lab,YES,48,46,2,95.83,YES
+24CS0028,Ananya Das,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0029,Uma Mishra,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0029,Uma Mishra,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0029,Uma Mishra,A,CS104,Programming in C,NO,27,22,5,81.48,YES
+24CS0029,Uma Mishra,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0029,Uma Mishra,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0029,Uma Mishra,A,CS108,Discrete Mathematics,NO,41,26,15,63.41,NO
+24CS0029,Uma Mishra,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0029,Uma Mishra,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0029,Uma Mishra,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0029,Uma Mishra,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0029,Uma Mishra,A,CS114,Theory of Computation,NO,39,28,11,71.79,NO
+24CS0029,Uma Mishra,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0029,Uma Mishra,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0029,Uma Mishra,A,CS118,Web Technologies,NO,14,6,8,42.86,NO
+24CS0029,Uma Mishra,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0029,Uma Mishra,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0029,Uma Mishra,A,CS193,Programming in C Lab,YES,56,30,26,53.57,NO
+24CS0029,Uma Mishra,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0029,Uma Mishra,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0030,Siddharth Nair,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0030,Siddharth Nair,A,CS104,Programming in C,NO,27,27,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0030,Siddharth Nair,A,CS107,Computer Organisation,NO,24,24,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS108,Discrete Mathematics,NO,41,39,2,95.12,YES
+24CS0030,Siddharth Nair,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0030,Siddharth Nair,A,CS110,Database Management Systems,NO,25,23,2,92.00,YES
+24CS0030,Siddharth Nair,A,CS111,Operating Systems,NO,29,29,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS113,Software Engineering,NO,12,12,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS114,Theory of Computation,NO,39,36,3,92.31,YES
+24CS0030,Siddharth Nair,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS117,Machine Learning,NO,39,37,2,94.87,YES
+24CS0030,Siddharth Nair,A,CS118,Web Technologies,NO,14,14,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS191,Physics Lab,YES,52,52,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS192,Chemistry Lab,YES,60,60,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS193,Programming in C Lab,YES,56,56,0,100.00,YES
+24CS0030,Siddharth Nair,A,CS194,Data Structures Lab,YES,48,46,2,95.83,YES
+24CS0030,Siddharth Nair,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0031,Aarav Sinha,A,CS101,Engineering Mathematics I,NO,30,21,9,70.00,NO
+24CS0031,Aarav Sinha,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0031,Aarav Sinha,A,CS104,Programming in C,NO,27,19,8,70.37,NO
+24CS0031,Aarav Sinha,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0031,Aarav Sinha,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0031,Aarav Sinha,A,CS108,Discrete Mathematics,NO,41,34,7,82.93,YES
+24CS0031,Aarav Sinha,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0031,Aarav Sinha,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0031,Aarav Sinha,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0031,Aarav Sinha,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0031,Aarav Sinha,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0031,Aarav Sinha,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0031,Aarav Sinha,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0031,Aarav Sinha,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0031,Aarav Sinha,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0031,Aarav Sinha,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0031,Aarav Sinha,A,CS193,Programming in C Lab,YES,56,52,4,92.86,YES
+24CS0031,Aarav Sinha,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0031,Aarav Sinha,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0032,Sakshi Yadav,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0032,Sakshi Yadav,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0032,Sakshi Yadav,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0032,Sakshi Yadav,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0032,Sakshi Yadav,A,CS107,Computer Organisation,NO,24,20,4,83.33,YES
+24CS0032,Sakshi Yadav,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0032,Sakshi Yadav,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0032,Sakshi Yadav,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0032,Sakshi Yadav,A,CS111,Operating Systems,NO,29,27,2,93.10,YES
+24CS0032,Sakshi Yadav,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0032,Sakshi Yadav,A,CS114,Theory of Computation,NO,39,34,5,87.18,YES
+24CS0032,Sakshi Yadav,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0032,Sakshi Yadav,A,CS117,Machine Learning,NO,39,35,4,89.74,YES
+24CS0032,Sakshi Yadav,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0032,Sakshi Yadav,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0032,Sakshi Yadav,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0032,Sakshi Yadav,A,CS193,Programming in C Lab,YES,56,50,6,89.29,YES
+24CS0032,Sakshi Yadav,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0032,Sakshi Yadav,A,CS195,DBMS Lab,YES,48,44,4,91.67,YES
+24CS0033,Madhav Das,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0033,Madhav Das,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0033,Madhav Das,A,CS104,Programming in C,NO,27,22,5,81.48,YES
+24CS0033,Madhav Das,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0033,Madhav Das,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0033,Madhav Das,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0033,Madhav Das,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0033,Madhav Das,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0033,Madhav Das,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0033,Madhav Das,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0033,Madhav Das,A,CS114,Theory of Computation,NO,39,28,11,71.79,NO
+24CS0033,Madhav Das,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0033,Madhav Das,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0033,Madhav Das,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0033,Madhav Das,A,CS191,Physics Lab,YES,52,38,14,73.08,NO
+24CS0033,Madhav Das,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0033,Madhav Das,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0033,Madhav Das,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0033,Madhav Das,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0034,Priya Agarwal,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0034,Priya Agarwal,A,CS102,Physics for Engineers,NO,12,5,7,41.67,NO
+24CS0034,Priya Agarwal,A,CS104,Programming in C,NO,27,14,13,51.85,NO
+24CS0034,Priya Agarwal,A,CS105,Digital Logic Design,NO,12,6,6,50.00,NO
+24CS0034,Priya Agarwal,A,CS107,Computer Organisation,NO,24,14,10,58.33,NO
+24CS0034,Priya Agarwal,A,CS108,Discrete Mathematics,NO,41,24,17,58.54,NO
+24CS0034,Priya Agarwal,A,CS109,Object Oriented Programming,NO,13,7,6,53.85,NO
+24CS0034,Priya Agarwal,A,CS110,Database Management Systems,NO,25,12,13,48.00,NO
+24CS0034,Priya Agarwal,A,CS111,Operating Systems,NO,29,17,12,58.62,NO
+24CS0034,Priya Agarwal,A,CS113,Software Engineering,NO,12,7,5,58.33,NO
+24CS0034,Priya Agarwal,A,CS114,Theory of Computation,NO,39,22,17,56.41,NO
+24CS0034,Priya Agarwal,A,CS116,Artificial Intelligence,NO,13,6,7,46.15,NO
+24CS0034,Priya Agarwal,A,CS117,Machine Learning,NO,39,21,18,53.85,NO
+24CS0034,Priya Agarwal,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0034,Priya Agarwal,A,CS191,Physics Lab,YES,52,28,24,53.85,NO
+24CS0034,Priya Agarwal,A,CS192,Chemistry Lab,YES,60,30,30,50.00,NO
+24CS0034,Priya Agarwal,A,CS193,Programming in C Lab,YES,56,34,22,60.71,NO
+24CS0034,Priya Agarwal,A,CS194,Data Structures Lab,YES,48,28,20,58.33,NO
+24CS0034,Priya Agarwal,A,CS195,DBMS Lab,YES,48,20,28,41.67,NO
+24CS0035,Zara Gandhi,A,CS101,Engineering Mathematics I,NO,30,27,3,90.00,YES
+24CS0035,Zara Gandhi,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0035,Zara Gandhi,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0035,Zara Gandhi,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0035,Zara Gandhi,A,CS107,Computer Organisation,NO,24,20,4,83.33,YES
+24CS0035,Zara Gandhi,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0035,Zara Gandhi,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0035,Zara Gandhi,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0035,Zara Gandhi,A,CS111,Operating Systems,NO,29,28,1,96.55,YES
+24CS0035,Zara Gandhi,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0035,Zara Gandhi,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0035,Zara Gandhi,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0035,Zara Gandhi,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0035,Zara Gandhi,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0035,Zara Gandhi,A,CS191,Physics Lab,YES,52,50,2,96.15,YES
+24CS0035,Zara Gandhi,A,CS192,Chemistry Lab,YES,60,56,4,93.33,YES
+24CS0035,Zara Gandhi,A,CS193,Programming in C Lab,YES,56,54,2,96.43,YES
+24CS0035,Zara Gandhi,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0035,Zara Gandhi,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0036,Keerthi Singh,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0036,Keerthi Singh,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0036,Keerthi Singh,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0036,Keerthi Singh,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0036,Keerthi Singh,A,CS107,Computer Organisation,NO,24,23,1,95.83,YES
+24CS0036,Keerthi Singh,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0036,Keerthi Singh,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0036,Keerthi Singh,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0036,Keerthi Singh,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0036,Keerthi Singh,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0036,Keerthi Singh,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0036,Keerthi Singh,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0036,Keerthi Singh,A,CS117,Machine Learning,NO,39,35,4,89.74,YES
+24CS0036,Keerthi Singh,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0036,Keerthi Singh,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0036,Keerthi Singh,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0036,Keerthi Singh,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0036,Keerthi Singh,A,CS194,Data Structures Lab,YES,48,46,2,95.83,YES
+24CS0036,Keerthi Singh,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0037,Zara Gandhi,A,CS101,Engineering Mathematics I,NO,30,18,12,60.00,NO
+24CS0037,Zara Gandhi,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0037,Zara Gandhi,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0037,Zara Gandhi,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0037,Zara Gandhi,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0037,Zara Gandhi,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0037,Zara Gandhi,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0037,Zara Gandhi,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0037,Zara Gandhi,A,CS111,Operating Systems,NO,29,20,9,68.97,NO
+24CS0037,Zara Gandhi,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0037,Zara Gandhi,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0037,Zara Gandhi,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0037,Zara Gandhi,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0037,Zara Gandhi,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0037,Zara Gandhi,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0037,Zara Gandhi,A,CS192,Chemistry Lab,YES,60,40,20,66.67,NO
+24CS0037,Zara Gandhi,A,CS193,Programming in C Lab,YES,56,36,20,64.29,NO
+24CS0037,Zara Gandhi,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0037,Zara Gandhi,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0038,Ramya Agarwal,A,CS101,Engineering Mathematics I,NO,30,21,9,70.00,NO
+24CS0038,Ramya Agarwal,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0038,Ramya Agarwal,A,CS104,Programming in C,NO,27,22,5,81.48,YES
+24CS0038,Ramya Agarwal,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0038,Ramya Agarwal,A,CS107,Computer Organisation,NO,24,23,1,95.83,YES
+24CS0038,Ramya Agarwal,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0038,Ramya Agarwal,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0038,Ramya Agarwal,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0038,Ramya Agarwal,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0038,Ramya Agarwal,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0038,Ramya Agarwal,A,CS114,Theory of Computation,NO,39,30,9,76.92,YES
+24CS0038,Ramya Agarwal,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0038,Ramya Agarwal,A,CS117,Machine Learning,NO,39,33,6,84.62,YES
+24CS0038,Ramya Agarwal,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0038,Ramya Agarwal,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0038,Ramya Agarwal,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0038,Ramya Agarwal,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0038,Ramya Agarwal,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0038,Ramya Agarwal,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0039,Keerthi Iyer,A,CS101,Engineering Mathematics I,NO,30,28,2,93.33,YES
+24CS0039,Keerthi Iyer,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0039,Keerthi Iyer,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0039,Keerthi Iyer,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0039,Keerthi Iyer,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0039,Keerthi Iyer,A,CS108,Discrete Mathematics,NO,41,26,15,63.41,NO
+24CS0039,Keerthi Iyer,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0039,Keerthi Iyer,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0039,Keerthi Iyer,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0039,Keerthi Iyer,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0039,Keerthi Iyer,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0039,Keerthi Iyer,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0039,Keerthi Iyer,A,CS117,Machine Learning,NO,39,33,6,84.62,YES
+24CS0039,Keerthi Iyer,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0039,Keerthi Iyer,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0039,Keerthi Iyer,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0039,Keerthi Iyer,A,CS193,Programming in C Lab,YES,56,38,18,67.86,NO
+24CS0039,Keerthi Iyer,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0039,Keerthi Iyer,A,CS195,DBMS Lab,YES,48,46,2,95.83,YES
+24CS0040,Sanjay Chakraborty,A,CS101,Engineering Mathematics I,NO,30,29,1,96.67,YES
+24CS0040,Sanjay Chakraborty,A,CS102,Physics for Engineers,NO,12,12,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS104,Programming in C,NO,27,26,1,96.30,YES
+24CS0040,Sanjay Chakraborty,A,CS105,Digital Logic Design,NO,12,12,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0040,Sanjay Chakraborty,A,CS108,Discrete Mathematics,NO,41,41,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0040,Sanjay Chakraborty,A,CS110,Database Management Systems,NO,25,25,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS111,Operating Systems,NO,29,29,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0040,Sanjay Chakraborty,A,CS114,Theory of Computation,NO,39,38,1,97.44,YES
+24CS0040,Sanjay Chakraborty,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0040,Sanjay Chakraborty,A,CS117,Machine Learning,NO,39,34,5,87.18,YES
+24CS0040,Sanjay Chakraborty,A,CS118,Web Technologies,NO,14,14,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS191,Physics Lab,YES,52,50,2,96.15,YES
+24CS0040,Sanjay Chakraborty,A,CS192,Chemistry Lab,YES,60,60,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS193,Programming in C Lab,YES,56,56,0,100.00,YES
+24CS0040,Sanjay Chakraborty,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0040,Sanjay Chakraborty,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0041,Anjali Yadav,A,CS101,Engineering Mathematics I,NO,30,18,12,60.00,NO
+24CS0041,Anjali Yadav,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0041,Anjali Yadav,A,CS104,Programming in C,NO,27,18,9,66.67,NO
+24CS0041,Anjali Yadav,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0041,Anjali Yadav,A,CS107,Computer Organisation,NO,24,20,4,83.33,YES
+24CS0041,Anjali Yadav,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0041,Anjali Yadav,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0041,Anjali Yadav,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0041,Anjali Yadav,A,CS111,Operating Systems,NO,29,19,10,65.52,NO
+24CS0041,Anjali Yadav,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0041,Anjali Yadav,A,CS114,Theory of Computation,NO,39,32,7,82.05,YES
+24CS0041,Anjali Yadav,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0041,Anjali Yadav,A,CS117,Machine Learning,NO,39,27,12,69.23,NO
+24CS0041,Anjali Yadav,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0041,Anjali Yadav,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0041,Anjali Yadav,A,CS192,Chemistry Lab,YES,60,36,24,60.00,NO
+24CS0041,Anjali Yadav,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0041,Anjali Yadav,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0041,Anjali Yadav,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0042,Rahul Rao,A,CS101,Engineering Mathematics I,NO,30,23,7,76.67,YES
+24CS0042,Rahul Rao,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0042,Rahul Rao,A,CS104,Programming in C,NO,27,20,7,74.07,NO
+24CS0042,Rahul Rao,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0042,Rahul Rao,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0042,Rahul Rao,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0042,Rahul Rao,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0042,Rahul Rao,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0042,Rahul Rao,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0042,Rahul Rao,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0042,Rahul Rao,A,CS114,Theory of Computation,NO,39,32,7,82.05,YES
+24CS0042,Rahul Rao,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0042,Rahul Rao,A,CS117,Machine Learning,NO,39,25,14,64.10,NO
+24CS0042,Rahul Rao,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0042,Rahul Rao,A,CS191,Physics Lab,YES,52,38,14,73.08,NO
+24CS0042,Rahul Rao,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0042,Rahul Rao,A,CS193,Programming in C Lab,YES,56,56,0,100.00,YES
+24CS0042,Rahul Rao,A,CS194,Data Structures Lab,YES,48,30,18,62.50,NO
+24CS0042,Rahul Rao,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0043,Siddharth Mishra,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0043,Siddharth Mishra,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0043,Siddharth Mishra,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0043,Siddharth Mishra,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0043,Siddharth Mishra,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0043,Siddharth Mishra,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0043,Siddharth Mishra,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0043,Siddharth Mishra,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0043,Siddharth Mishra,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0043,Siddharth Mishra,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0043,Siddharth Mishra,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0043,Siddharth Mishra,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0043,Siddharth Mishra,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0043,Siddharth Mishra,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0043,Siddharth Mishra,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0043,Siddharth Mishra,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0043,Siddharth Mishra,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0043,Siddharth Mishra,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0043,Siddharth Mishra,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0044,Zara Verma,A,CS101,Engineering Mathematics I,NO,30,28,2,93.33,YES
+24CS0044,Zara Verma,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0044,Zara Verma,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0044,Zara Verma,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0044,Zara Verma,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0044,Zara Verma,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0044,Zara Verma,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0044,Zara Verma,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0044,Zara Verma,A,CS111,Operating Systems,NO,29,24,5,82.76,YES
+24CS0044,Zara Verma,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0044,Zara Verma,A,CS114,Theory of Computation,NO,39,28,11,71.79,NO
+24CS0044,Zara Verma,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0044,Zara Verma,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0044,Zara Verma,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0044,Zara Verma,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0044,Zara Verma,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0044,Zara Verma,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0044,Zara Verma,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0044,Zara Verma,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0045,Nikhil Sinha,A,CS101,Engineering Mathematics I,NO,30,23,7,76.67,YES
+24CS0045,Nikhil Sinha,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0045,Nikhil Sinha,A,CS104,Programming in C,NO,27,19,8,70.37,NO
+24CS0045,Nikhil Sinha,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0045,Nikhil Sinha,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0045,Nikhil Sinha,A,CS108,Discrete Mathematics,NO,41,24,17,58.54,NO
+24CS0045,Nikhil Sinha,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0045,Nikhil Sinha,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0045,Nikhil Sinha,A,CS111,Operating Systems,NO,29,18,11,62.07,NO
+24CS0045,Nikhil Sinha,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0045,Nikhil Sinha,A,CS114,Theory of Computation,NO,39,27,12,69.23,NO
+24CS0045,Nikhil Sinha,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0045,Nikhil Sinha,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0045,Nikhil Sinha,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0045,Nikhil Sinha,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0045,Nikhil Sinha,A,CS192,Chemistry Lab,YES,60,46,14,76.67,YES
+24CS0045,Nikhil Sinha,A,CS193,Programming in C Lab,YES,56,28,28,50.00,NO
+24CS0045,Nikhil Sinha,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0045,Nikhil Sinha,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0046,Rohit Nair,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0046,Rohit Nair,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0046,Rohit Nair,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0046,Rohit Nair,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0046,Rohit Nair,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0046,Rohit Nair,A,CS108,Discrete Mathematics,NO,41,33,8,80.49,YES
+24CS0046,Rohit Nair,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0046,Rohit Nair,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0046,Rohit Nair,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0046,Rohit Nair,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0046,Rohit Nair,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0046,Rohit Nair,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0046,Rohit Nair,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0046,Rohit Nair,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0046,Rohit Nair,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0046,Rohit Nair,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0046,Rohit Nair,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0046,Rohit Nair,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0046,Rohit Nair,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0047,Anjali Kapoor,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0047,Anjali Kapoor,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0047,Anjali Kapoor,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0047,Anjali Kapoor,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0047,Anjali Kapoor,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0047,Anjali Kapoor,A,CS108,Discrete Mathematics,NO,41,36,5,87.80,YES
+24CS0047,Anjali Kapoor,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0047,Anjali Kapoor,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0047,Anjali Kapoor,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0047,Anjali Kapoor,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0047,Anjali Kapoor,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0047,Anjali Kapoor,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0047,Anjali Kapoor,A,CS117,Machine Learning,NO,39,33,6,84.62,YES
+24CS0047,Anjali Kapoor,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0047,Anjali Kapoor,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0047,Anjali Kapoor,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0047,Anjali Kapoor,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0047,Anjali Kapoor,A,CS194,Data Structures Lab,YES,48,48,0,100.00,YES
+24CS0047,Anjali Kapoor,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0048,Harish Reddy,A,CS101,Engineering Mathematics I,NO,30,16,14,53.33,NO
+24CS0048,Harish Reddy,A,CS102,Physics for Engineers,NO,12,6,6,50.00,NO
+24CS0048,Harish Reddy,A,CS104,Programming in C,NO,27,14,13,51.85,NO
+24CS0048,Harish Reddy,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0048,Harish Reddy,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0048,Harish Reddy,A,CS108,Discrete Mathematics,NO,41,25,16,60.98,NO
+24CS0048,Harish Reddy,A,CS109,Object Oriented Programming,NO,13,4,9,30.77,NO
+24CS0048,Harish Reddy,A,CS110,Database Management Systems,NO,25,11,14,44.00,NO
+24CS0048,Harish Reddy,A,CS111,Operating Systems,NO,29,18,11,62.07,NO
+24CS0048,Harish Reddy,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0048,Harish Reddy,A,CS114,Theory of Computation,NO,39,21,18,53.85,NO
+24CS0048,Harish Reddy,A,CS116,Artificial Intelligence,NO,13,4,9,30.77,NO
+24CS0048,Harish Reddy,A,CS117,Machine Learning,NO,39,23,16,58.97,NO
+24CS0048,Harish Reddy,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0048,Harish Reddy,A,CS191,Physics Lab,YES,52,12,40,23.08,NO
+24CS0048,Harish Reddy,A,CS192,Chemistry Lab,YES,60,32,28,53.33,NO
+24CS0048,Harish Reddy,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0048,Harish Reddy,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0048,Harish Reddy,A,CS195,DBMS Lab,YES,48,28,20,58.33,NO
+24CS0049,Harish Chakraborty,A,CS101,Engineering Mathematics I,NO,30,20,10,66.67,NO
+24CS0049,Harish Chakraborty,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0049,Harish Chakraborty,A,CS104,Programming in C,NO,27,17,10,62.96,NO
+24CS0049,Harish Chakraborty,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0049,Harish Chakraborty,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0049,Harish Chakraborty,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0049,Harish Chakraborty,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0049,Harish Chakraborty,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0049,Harish Chakraborty,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0049,Harish Chakraborty,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0049,Harish Chakraborty,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0049,Harish Chakraborty,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0049,Harish Chakraborty,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0049,Harish Chakraborty,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0049,Harish Chakraborty,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0049,Harish Chakraborty,A,CS192,Chemistry Lab,YES,60,40,20,66.67,NO
+24CS0049,Harish Chakraborty,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0049,Harish Chakraborty,A,CS194,Data Structures Lab,YES,48,30,18,62.50,NO
+24CS0049,Harish Chakraborty,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0050,Anjali Pillai,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0050,Anjali Pillai,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0050,Anjali Pillai,A,CS104,Programming in C,NO,27,18,9,66.67,NO
+24CS0050,Anjali Pillai,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0050,Anjali Pillai,A,CS107,Computer Organisation,NO,24,11,13,45.83,NO
+24CS0050,Anjali Pillai,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0050,Anjali Pillai,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0050,Anjali Pillai,A,CS110,Database Management Systems,NO,25,19,6,76.00,YES
+24CS0050,Anjali Pillai,A,CS111,Operating Systems,NO,29,23,6,79.31,YES
+24CS0050,Anjali Pillai,A,CS113,Software Engineering,NO,12,5,7,41.67,NO
+24CS0050,Anjali Pillai,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0050,Anjali Pillai,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0050,Anjali Pillai,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0050,Anjali Pillai,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0050,Anjali Pillai,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0050,Anjali Pillai,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0050,Anjali Pillai,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0050,Anjali Pillai,A,CS194,Data Structures Lab,YES,48,24,24,50.00,NO
+24CS0050,Anjali Pillai,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0051,Ramya Gupta,A,CS101,Engineering Mathematics I,NO,30,18,12,60.00,NO
+24CS0051,Ramya Gupta,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0051,Ramya Gupta,A,CS104,Programming in C,NO,27,17,10,62.96,NO
+24CS0051,Ramya Gupta,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0051,Ramya Gupta,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0051,Ramya Gupta,A,CS108,Discrete Mathematics,NO,41,25,16,60.98,NO
+24CS0051,Ramya Gupta,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0051,Ramya Gupta,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0051,Ramya Gupta,A,CS111,Operating Systems,NO,29,15,14,51.72,NO
+24CS0051,Ramya Gupta,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0051,Ramya Gupta,A,CS114,Theory of Computation,NO,39,27,12,69.23,NO
+24CS0051,Ramya Gupta,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0051,Ramya Gupta,A,CS117,Machine Learning,NO,39,25,14,64.10,NO
+24CS0051,Ramya Gupta,A,CS118,Web Technologies,NO,14,7,7,50.00,NO
+24CS0051,Ramya Gupta,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0051,Ramya Gupta,A,CS192,Chemistry Lab,YES,60,36,24,60.00,NO
+24CS0051,Ramya Gupta,A,CS193,Programming in C Lab,YES,56,26,30,46.43,NO
+24CS0051,Ramya Gupta,A,CS194,Data Structures Lab,YES,48,30,18,62.50,NO
+24CS0051,Ramya Gupta,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0052,Sanjay Reddy,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0052,Sanjay Reddy,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0052,Sanjay Reddy,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0052,Sanjay Reddy,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0052,Sanjay Reddy,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0052,Sanjay Reddy,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0052,Sanjay Reddy,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0052,Sanjay Reddy,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0052,Sanjay Reddy,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0052,Sanjay Reddy,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0052,Sanjay Reddy,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0052,Sanjay Reddy,A,CS116,Artificial Intelligence,NO,13,13,0,100.00,YES
+24CS0052,Sanjay Reddy,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0052,Sanjay Reddy,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0052,Sanjay Reddy,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0052,Sanjay Reddy,A,CS192,Chemistry Lab,YES,60,56,4,93.33,YES
+24CS0052,Sanjay Reddy,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0052,Sanjay Reddy,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0052,Sanjay Reddy,A,CS195,DBMS Lab,YES,48,34,14,70.83,NO
+24CS0053,Rahul Mishra,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0053,Rahul Mishra,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0053,Rahul Mishra,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0053,Rahul Mishra,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0053,Rahul Mishra,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0053,Rahul Mishra,A,CS108,Discrete Mathematics,NO,41,34,7,82.93,YES
+24CS0053,Rahul Mishra,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0053,Rahul Mishra,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0053,Rahul Mishra,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0053,Rahul Mishra,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0053,Rahul Mishra,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0053,Rahul Mishra,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0053,Rahul Mishra,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0053,Rahul Mishra,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0053,Rahul Mishra,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0053,Rahul Mishra,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0053,Rahul Mishra,A,CS193,Programming in C Lab,YES,56,50,6,89.29,YES
+24CS0053,Rahul Mishra,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0053,Rahul Mishra,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0054,Tejas Mishra,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0054,Tejas Mishra,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0054,Tejas Mishra,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0054,Tejas Mishra,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0054,Tejas Mishra,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0054,Tejas Mishra,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0054,Tejas Mishra,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0054,Tejas Mishra,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0054,Tejas Mishra,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0054,Tejas Mishra,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0054,Tejas Mishra,A,CS114,Theory of Computation,NO,39,34,5,87.18,YES
+24CS0054,Tejas Mishra,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0054,Tejas Mishra,A,CS117,Machine Learning,NO,39,28,11,71.79,NO
+24CS0054,Tejas Mishra,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0054,Tejas Mishra,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0054,Tejas Mishra,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0054,Tejas Mishra,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0054,Tejas Mishra,A,CS194,Data Structures Lab,YES,48,38,10,79.17,YES
+24CS0054,Tejas Mishra,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0055,Priya Verma,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0055,Priya Verma,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0055,Priya Verma,A,CS104,Programming in C,NO,27,22,5,81.48,YES
+24CS0055,Priya Verma,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0055,Priya Verma,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0055,Priya Verma,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0055,Priya Verma,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0055,Priya Verma,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0055,Priya Verma,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0055,Priya Verma,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0055,Priya Verma,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0055,Priya Verma,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0055,Priya Verma,A,CS117,Machine Learning,NO,39,33,6,84.62,YES
+24CS0055,Priya Verma,A,CS118,Web Technologies,NO,14,14,0,100.00,YES
+24CS0055,Priya Verma,A,CS191,Physics Lab,YES,52,38,14,73.08,NO
+24CS0055,Priya Verma,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0055,Priya Verma,A,CS193,Programming in C Lab,YES,56,56,0,100.00,YES
+24CS0055,Priya Verma,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0055,Priya Verma,A,CS195,DBMS Lab,YES,48,34,14,70.83,NO
+24CS0056,Tanisha Das,A,CS101,Engineering Mathematics I,NO,30,18,12,60.00,NO
+24CS0056,Tanisha Das,A,CS102,Physics for Engineers,NO,12,5,7,41.67,NO
+24CS0056,Tanisha Das,A,CS104,Programming in C,NO,27,17,10,62.96,NO
+24CS0056,Tanisha Das,A,CS105,Digital Logic Design,NO,12,5,7,41.67,NO
+24CS0056,Tanisha Das,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0056,Tanisha Das,A,CS108,Discrete Mathematics,NO,41,31,10,75.61,YES
+24CS0056,Tanisha Das,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0056,Tanisha Das,A,CS110,Database Management Systems,NO,25,11,14,44.00,NO
+24CS0056,Tanisha Das,A,CS111,Operating Systems,NO,29,20,9,68.97,NO
+24CS0056,Tanisha Das,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0056,Tanisha Das,A,CS114,Theory of Computation,NO,39,21,18,53.85,NO
+24CS0056,Tanisha Das,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0056,Tanisha Das,A,CS117,Machine Learning,NO,39,21,18,53.85,NO
+24CS0056,Tanisha Das,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0056,Tanisha Das,A,CS191,Physics Lab,YES,52,28,24,53.85,NO
+24CS0056,Tanisha Das,A,CS192,Chemistry Lab,YES,60,34,26,56.67,NO
+24CS0056,Tanisha Das,A,CS193,Programming in C Lab,YES,56,46,10,82.14,YES
+24CS0056,Tanisha Das,A,CS194,Data Structures Lab,YES,48,30,18,62.50,NO
+24CS0056,Tanisha Das,A,CS195,DBMS Lab,YES,48,20,28,41.67,NO
+24CS0057,Madhav Das,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0057,Madhav Das,A,CS102,Physics for Engineers,NO,12,4,8,33.33,NO
+24CS0057,Madhav Das,A,CS104,Programming in C,NO,27,17,10,62.96,NO
+24CS0057,Madhav Das,A,CS105,Digital Logic Design,NO,12,4,8,33.33,NO
+24CS0057,Madhav Das,A,CS107,Computer Organisation,NO,24,12,12,50.00,NO
+24CS0057,Madhav Das,A,CS108,Discrete Mathematics,NO,41,32,9,78.05,YES
+24CS0057,Madhav Das,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0057,Madhav Das,A,CS110,Database Management Systems,NO,25,14,11,56.00,NO
+24CS0057,Madhav Das,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0057,Madhav Das,A,CS113,Software Engineering,NO,12,6,6,50.00,NO
+24CS0057,Madhav Das,A,CS114,Theory of Computation,NO,39,24,15,61.54,NO
+24CS0057,Madhav Das,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0057,Madhav Das,A,CS117,Machine Learning,NO,39,20,19,51.28,NO
+24CS0057,Madhav Das,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0057,Madhav Das,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0057,Madhav Das,A,CS192,Chemistry Lab,YES,60,44,16,73.33,NO
+24CS0057,Madhav Das,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0057,Madhav Das,A,CS194,Data Structures Lab,YES,48,24,24,50.00,NO
+24CS0057,Madhav Das,A,CS195,DBMS Lab,YES,48,16,32,33.33,NO
+24CS0058,Sakshi Nair,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0058,Sakshi Nair,A,CS102,Physics for Engineers,NO,12,7,5,58.33,NO
+24CS0058,Sakshi Nair,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0058,Sakshi Nair,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0058,Sakshi Nair,A,CS107,Computer Organisation,NO,24,18,6,75.00,YES
+24CS0058,Sakshi Nair,A,CS108,Discrete Mathematics,NO,41,28,13,68.29,NO
+24CS0058,Sakshi Nair,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0058,Sakshi Nair,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0058,Sakshi Nair,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0058,Sakshi Nair,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0058,Sakshi Nair,A,CS114,Theory of Computation,NO,39,26,13,66.67,NO
+24CS0058,Sakshi Nair,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0058,Sakshi Nair,A,CS117,Machine Learning,NO,39,27,12,69.23,NO
+24CS0058,Sakshi Nair,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0058,Sakshi Nair,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0058,Sakshi Nair,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0058,Sakshi Nair,A,CS193,Programming in C Lab,YES,56,36,20,64.29,NO
+24CS0058,Sakshi Nair,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0058,Sakshi Nair,A,CS195,DBMS Lab,YES,48,24,24,50.00,NO
+24CS0059,Karthik Nair,A,CS101,Engineering Mathematics I,NO,30,28,2,93.33,YES
+24CS0059,Karthik Nair,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0059,Karthik Nair,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0059,Karthik Nair,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0059,Karthik Nair,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0059,Karthik Nair,A,CS108,Discrete Mathematics,NO,41,29,12,70.73,NO
+24CS0059,Karthik Nair,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0059,Karthik Nair,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0059,Karthik Nair,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0059,Karthik Nair,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0059,Karthik Nair,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0059,Karthik Nair,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0059,Karthik Nair,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0059,Karthik Nair,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0059,Karthik Nair,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0059,Karthik Nair,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0059,Karthik Nair,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0059,Karthik Nair,A,CS194,Data Structures Lab,YES,48,42,6,87.50,YES
+24CS0059,Karthik Nair,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0060,Anjali Nair,A,CS101,Engineering Mathematics I,NO,30,20,10,66.67,NO
+24CS0060,Anjali Nair,A,CS102,Physics for Engineers,NO,12,5,7,41.67,NO
+24CS0060,Anjali Nair,A,CS104,Programming in C,NO,27,18,9,66.67,NO
+24CS0060,Anjali Nair,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0060,Anjali Nair,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0060,Anjali Nair,A,CS108,Discrete Mathematics,NO,41,23,18,56.10,NO
+24CS0060,Anjali Nair,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0060,Anjali Nair,A,CS110,Database Management Systems,NO,25,14,11,56.00,NO
+24CS0060,Anjali Nair,A,CS111,Operating Systems,NO,29,18,11,62.07,NO
+24CS0060,Anjali Nair,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0060,Anjali Nair,A,CS114,Theory of Computation,NO,39,20,19,51.28,NO
+24CS0060,Anjali Nair,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0060,Anjali Nair,A,CS117,Machine Learning,NO,39,24,15,61.54,NO
+24CS0060,Anjali Nair,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0060,Anjali Nair,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0060,Anjali Nair,A,CS192,Chemistry Lab,YES,60,36,24,60.00,NO
+24CS0060,Anjali Nair,A,CS193,Programming in C Lab,YES,56,32,24,57.14,NO
+24CS0060,Anjali Nair,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0060,Anjali Nair,A,CS195,DBMS Lab,YES,48,26,22,54.17,NO
+24CS0061,Sakshi Agarwal,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0061,Sakshi Agarwal,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0061,Sakshi Agarwal,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0061,Sakshi Agarwal,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0061,Sakshi Agarwal,A,CS107,Computer Organisation,NO,24,24,0,100.00,YES
+24CS0061,Sakshi Agarwal,A,CS108,Discrete Mathematics,NO,41,35,6,85.37,YES
+24CS0061,Sakshi Agarwal,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0061,Sakshi Agarwal,A,CS110,Database Management Systems,NO,25,16,9,64.00,NO
+24CS0061,Sakshi Agarwal,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0061,Sakshi Agarwal,A,CS113,Software Engineering,NO,12,12,0,100.00,YES
+24CS0061,Sakshi Agarwal,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0061,Sakshi Agarwal,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0061,Sakshi Agarwal,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0061,Sakshi Agarwal,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0061,Sakshi Agarwal,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0061,Sakshi Agarwal,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0061,Sakshi Agarwal,A,CS193,Programming in C Lab,YES,56,56,0,100.00,YES
+24CS0061,Sakshi Agarwal,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0061,Sakshi Agarwal,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0062,Ishaan Gandhi,A,CS101,Engineering Mathematics I,NO,30,21,9,70.00,NO
+24CS0062,Ishaan Gandhi,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0062,Ishaan Gandhi,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0062,Ishaan Gandhi,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0062,Ishaan Gandhi,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0062,Ishaan Gandhi,A,CS108,Discrete Mathematics,NO,41,30,11,73.17,NO
+24CS0062,Ishaan Gandhi,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0062,Ishaan Gandhi,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0062,Ishaan Gandhi,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0062,Ishaan Gandhi,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0062,Ishaan Gandhi,A,CS114,Theory of Computation,NO,39,31,8,79.49,YES
+24CS0062,Ishaan Gandhi,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0062,Ishaan Gandhi,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0062,Ishaan Gandhi,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0062,Ishaan Gandhi,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0062,Ishaan Gandhi,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0062,Ishaan Gandhi,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0062,Ishaan Gandhi,A,CS194,Data Structures Lab,YES,48,38,10,79.17,YES
+24CS0062,Ishaan Gandhi,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0063,Gayatri Mehta,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0063,Gayatri Mehta,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0063,Gayatri Mehta,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0063,Gayatri Mehta,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0063,Gayatri Mehta,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0063,Gayatri Mehta,A,CS108,Discrete Mathematics,NO,41,38,3,92.68,YES
+24CS0063,Gayatri Mehta,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0063,Gayatri Mehta,A,CS110,Database Management Systems,NO,25,23,2,92.00,YES
+24CS0063,Gayatri Mehta,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0063,Gayatri Mehta,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0063,Gayatri Mehta,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0063,Gayatri Mehta,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0063,Gayatri Mehta,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0063,Gayatri Mehta,A,CS118,Web Technologies,NO,14,12,2,85.71,YES
+24CS0063,Gayatri Mehta,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0063,Gayatri Mehta,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0063,Gayatri Mehta,A,CS193,Programming in C Lab,YES,56,48,8,85.71,YES
+24CS0063,Gayatri Mehta,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0063,Gayatri Mehta,A,CS195,DBMS Lab,YES,48,42,6,87.50,YES
+24CS0064,Aarav Mehta,A,CS101,Engineering Mathematics I,NO,30,25,5,83.33,YES
+24CS0064,Aarav Mehta,A,CS102,Physics for Engineers,NO,12,10,2,83.33,YES
+24CS0064,Aarav Mehta,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0064,Aarav Mehta,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0064,Aarav Mehta,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0064,Aarav Mehta,A,CS108,Discrete Mathematics,NO,41,34,7,82.93,YES
+24CS0064,Aarav Mehta,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0064,Aarav Mehta,A,CS110,Database Management Systems,NO,25,22,3,88.00,YES
+24CS0064,Aarav Mehta,A,CS111,Operating Systems,NO,29,25,4,86.21,YES
+24CS0064,Aarav Mehta,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0064,Aarav Mehta,A,CS114,Theory of Computation,NO,39,33,6,84.62,YES
+24CS0064,Aarav Mehta,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0064,Aarav Mehta,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0064,Aarav Mehta,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0064,Aarav Mehta,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0064,Aarav Mehta,A,CS192,Chemistry Lab,YES,60,52,8,86.67,YES
+24CS0064,Aarav Mehta,A,CS193,Programming in C Lab,YES,56,44,12,78.57,YES
+24CS0064,Aarav Mehta,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0064,Aarav Mehta,A,CS195,DBMS Lab,YES,48,40,8,83.33,YES
+24CS0065,Priya Joshi,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0065,Priya Joshi,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0065,Priya Joshi,A,CS104,Programming in C,NO,27,27,0,100.00,YES
+24CS0065,Priya Joshi,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0065,Priya Joshi,A,CS107,Computer Organisation,NO,24,24,0,100.00,YES
+24CS0065,Priya Joshi,A,CS108,Discrete Mathematics,NO,41,41,0,100.00,YES
+24CS0065,Priya Joshi,A,CS109,Object Oriented Programming,NO,13,13,0,100.00,YES
+24CS0065,Priya Joshi,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0065,Priya Joshi,A,CS111,Operating Systems,NO,29,28,1,96.55,YES
+24CS0065,Priya Joshi,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0065,Priya Joshi,A,CS114,Theory of Computation,NO,39,34,5,87.18,YES
+24CS0065,Priya Joshi,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0065,Priya Joshi,A,CS117,Machine Learning,NO,39,37,2,94.87,YES
+24CS0065,Priya Joshi,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0065,Priya Joshi,A,CS191,Physics Lab,YES,52,48,4,92.31,YES
+24CS0065,Priya Joshi,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0065,Priya Joshi,A,CS193,Programming in C Lab,YES,56,54,2,96.43,YES
+24CS0065,Priya Joshi,A,CS194,Data Structures Lab,YES,48,46,2,95.83,YES
+24CS0065,Priya Joshi,A,CS195,DBMS Lab,YES,48,44,4,91.67,YES
+24CS0066,Vishnu Rao,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0066,Vishnu Rao,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0066,Vishnu Rao,A,CS104,Programming in C,NO,27,19,8,70.37,NO
+24CS0066,Vishnu Rao,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0066,Vishnu Rao,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0066,Vishnu Rao,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0066,Vishnu Rao,A,CS109,Object Oriented Programming,NO,13,7,6,53.85,NO
+24CS0066,Vishnu Rao,A,CS110,Database Management Systems,NO,25,16,9,64.00,NO
+24CS0066,Vishnu Rao,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0066,Vishnu Rao,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0066,Vishnu Rao,A,CS114,Theory of Computation,NO,39,27,12,69.23,NO
+24CS0066,Vishnu Rao,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0066,Vishnu Rao,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0066,Vishnu Rao,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0066,Vishnu Rao,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0066,Vishnu Rao,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0066,Vishnu Rao,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0066,Vishnu Rao,A,CS194,Data Structures Lab,YES,48,36,12,75.00,YES
+24CS0066,Vishnu Rao,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0067,Kavya Gupta,A,CS101,Engineering Mathematics I,NO,30,23,7,76.67,YES
+24CS0067,Kavya Gupta,A,CS102,Physics for Engineers,NO,12,6,6,50.00,NO
+24CS0067,Kavya Gupta,A,CS104,Programming in C,NO,27,19,8,70.37,NO
+24CS0067,Kavya Gupta,A,CS105,Digital Logic Design,NO,12,5,7,41.67,NO
+24CS0067,Kavya Gupta,A,CS107,Computer Organisation,NO,24,16,8,66.67,NO
+24CS0067,Kavya Gupta,A,CS108,Discrete Mathematics,NO,41,29,12,70.73,NO
+24CS0067,Kavya Gupta,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0067,Kavya Gupta,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0067,Kavya Gupta,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0067,Kavya Gupta,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0067,Kavya Gupta,A,CS114,Theory of Computation,NO,39,24,15,61.54,NO
+24CS0067,Kavya Gupta,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0067,Kavya Gupta,A,CS117,Machine Learning,NO,39,25,14,64.10,NO
+24CS0067,Kavya Gupta,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0067,Kavya Gupta,A,CS191,Physics Lab,YES,52,44,8,84.62,YES
+24CS0067,Kavya Gupta,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0067,Kavya Gupta,A,CS193,Programming in C Lab,YES,56,36,20,64.29,NO
+24CS0067,Kavya Gupta,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0067,Kavya Gupta,A,CS195,DBMS Lab,YES,48,22,26,45.83,NO
+24CS0068,Sakshi Bhat,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0068,Sakshi Bhat,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0068,Sakshi Bhat,A,CS104,Programming in C,NO,27,24,3,88.89,YES
+24CS0068,Sakshi Bhat,A,CS105,Digital Logic Design,NO,12,10,2,83.33,YES
+24CS0068,Sakshi Bhat,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0068,Sakshi Bhat,A,CS108,Discrete Mathematics,NO,41,40,1,97.56,YES
+24CS0068,Sakshi Bhat,A,CS109,Object Oriented Programming,NO,13,11,2,84.62,YES
+24CS0068,Sakshi Bhat,A,CS110,Database Management Systems,NO,25,21,4,84.00,YES
+24CS0068,Sakshi Bhat,A,CS111,Operating Systems,NO,29,26,3,89.66,YES
+24CS0068,Sakshi Bhat,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0068,Sakshi Bhat,A,CS114,Theory of Computation,NO,39,36,3,92.31,YES
+24CS0068,Sakshi Bhat,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0068,Sakshi Bhat,A,CS117,Machine Learning,NO,39,33,6,84.62,YES
+24CS0068,Sakshi Bhat,A,CS118,Web Technologies,NO,14,13,1,92.86,YES
+24CS0068,Sakshi Bhat,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0068,Sakshi Bhat,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0068,Sakshi Bhat,A,CS193,Programming in C Lab,YES,56,54,2,96.43,YES
+24CS0068,Sakshi Bhat,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0068,Sakshi Bhat,A,CS195,DBMS Lab,YES,48,38,10,79.17,YES
+24CS0069,Shreya Patel,A,CS101,Engineering Mathematics I,NO,30,24,6,80.00,YES
+24CS0069,Shreya Patel,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0069,Shreya Patel,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0069,Shreya Patel,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0069,Shreya Patel,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0069,Shreya Patel,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0069,Shreya Patel,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0069,Shreya Patel,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0069,Shreya Patel,A,CS111,Operating Systems,NO,29,21,8,72.41,NO
+24CS0069,Shreya Patel,A,CS113,Software Engineering,NO,12,8,4,66.67,NO
+24CS0069,Shreya Patel,A,CS114,Theory of Computation,NO,39,27,12,69.23,NO
+24CS0069,Shreya Patel,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0069,Shreya Patel,A,CS117,Machine Learning,NO,39,31,8,79.49,YES
+24CS0069,Shreya Patel,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0069,Shreya Patel,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0069,Shreya Patel,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0069,Shreya Patel,A,CS193,Programming in C Lab,YES,56,32,24,57.14,NO
+24CS0069,Shreya Patel,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0069,Shreya Patel,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0070,Ravi Chakraborty,A,CS101,Engineering Mathematics I,NO,30,26,4,86.67,YES
+24CS0070,Ravi Chakraborty,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0070,Ravi Chakraborty,A,CS104,Programming in C,NO,27,23,4,85.19,YES
+24CS0070,Ravi Chakraborty,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0070,Ravi Chakraborty,A,CS107,Computer Organisation,NO,24,21,3,87.50,YES
+24CS0070,Ravi Chakraborty,A,CS108,Discrete Mathematics,NO,41,27,14,65.85,NO
+24CS0070,Ravi Chakraborty,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0070,Ravi Chakraborty,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0070,Ravi Chakraborty,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0070,Ravi Chakraborty,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0070,Ravi Chakraborty,A,CS114,Theory of Computation,NO,39,27,12,69.23,NO
+24CS0070,Ravi Chakraborty,A,CS116,Artificial Intelligence,NO,13,9,4,69.23,NO
+24CS0070,Ravi Chakraborty,A,CS117,Machine Learning,NO,39,32,7,82.05,YES
+24CS0070,Ravi Chakraborty,A,CS118,Web Technologies,NO,14,10,4,71.43,NO
+24CS0070,Ravi Chakraborty,A,CS191,Physics Lab,YES,52,36,16,69.23,NO
+24CS0070,Ravi Chakraborty,A,CS192,Chemistry Lab,YES,60,50,10,83.33,YES
+24CS0070,Ravi Chakraborty,A,CS193,Programming in C Lab,YES,56,40,16,71.43,NO
+24CS0070,Ravi Chakraborty,A,CS194,Data Structures Lab,YES,48,42,6,87.50,YES
+24CS0070,Ravi Chakraborty,A,CS195,DBMS Lab,YES,48,32,16,66.67,NO
+24CS0071,Anjali Sinha,A,CS101,Engineering Mathematics I,NO,30,30,0,100.00,YES
+24CS0071,Anjali Sinha,A,CS102,Physics for Engineers,NO,12,11,1,91.67,YES
+24CS0071,Anjali Sinha,A,CS104,Programming in C,NO,27,25,2,92.59,YES
+24CS0071,Anjali Sinha,A,CS105,Digital Logic Design,NO,12,11,1,91.67,YES
+24CS0071,Anjali Sinha,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0071,Anjali Sinha,A,CS108,Discrete Mathematics,NO,41,37,4,90.24,YES
+24CS0071,Anjali Sinha,A,CS109,Object Oriented Programming,NO,13,12,1,92.31,YES
+24CS0071,Anjali Sinha,A,CS110,Database Management Systems,NO,25,25,0,100.00,YES
+24CS0071,Anjali Sinha,A,CS111,Operating Systems,NO,29,26,3,89.66,YES
+24CS0071,Anjali Sinha,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0071,Anjali Sinha,A,CS114,Theory of Computation,NO,39,36,3,92.31,YES
+24CS0071,Anjali Sinha,A,CS116,Artificial Intelligence,NO,13,12,1,92.31,YES
+24CS0071,Anjali Sinha,A,CS117,Machine Learning,NO,39,37,2,94.87,YES
+24CS0071,Anjali Sinha,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0071,Anjali Sinha,A,CS191,Physics Lab,YES,52,46,6,88.46,YES
+24CS0071,Anjali Sinha,A,CS192,Chemistry Lab,YES,60,58,2,96.67,YES
+24CS0071,Anjali Sinha,A,CS193,Programming in C Lab,YES,56,52,4,92.86,YES
+24CS0071,Anjali Sinha,A,CS194,Data Structures Lab,YES,48,44,4,91.67,YES
+24CS0071,Anjali Sinha,A,CS195,DBMS Lab,YES,48,48,0,100.00,YES
+24CS0072,Sanjay Iyer,A,CS101,Engineering Mathematics I,NO,30,23,7,76.67,YES
+24CS0072,Sanjay Iyer,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0072,Sanjay Iyer,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0072,Sanjay Iyer,A,CS105,Digital Logic Design,NO,12,7,5,58.33,NO
+24CS0072,Sanjay Iyer,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0072,Sanjay Iyer,A,CS108,Discrete Mathematics,NO,41,24,17,58.54,NO
+24CS0072,Sanjay Iyer,A,CS109,Object Oriented Programming,NO,13,9,4,69.23,NO
+24CS0072,Sanjay Iyer,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0072,Sanjay Iyer,A,CS111,Operating Systems,NO,29,20,9,68.97,NO
+24CS0072,Sanjay Iyer,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0072,Sanjay Iyer,A,CS114,Theory of Computation,NO,39,26,13,66.67,NO
+24CS0072,Sanjay Iyer,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0072,Sanjay Iyer,A,CS117,Machine Learning,NO,39,29,10,74.36,NO
+24CS0072,Sanjay Iyer,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0072,Sanjay Iyer,A,CS191,Physics Lab,YES,52,34,18,65.38,NO
+24CS0072,Sanjay Iyer,A,CS192,Chemistry Lab,YES,60,48,12,80.00,YES
+24CS0072,Sanjay Iyer,A,CS193,Programming in C Lab,YES,56,32,24,57.14,NO
+24CS0072,Sanjay Iyer,A,CS194,Data Structures Lab,YES,48,32,16,66.67,NO
+24CS0072,Sanjay Iyer,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0073,Nisha Sinha,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0073,Nisha Sinha,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0073,Nisha Sinha,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0073,Nisha Sinha,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0073,Nisha Sinha,A,CS107,Computer Organisation,NO,24,19,5,79.17,YES
+24CS0073,Nisha Sinha,A,CS108,Discrete Mathematics,NO,41,29,12,70.73,NO
+24CS0073,Nisha Sinha,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0073,Nisha Sinha,A,CS110,Database Management Systems,NO,25,18,7,72.00,NO
+24CS0073,Nisha Sinha,A,CS111,Operating Systems,NO,29,22,7,75.86,YES
+24CS0073,Nisha Sinha,A,CS113,Software Engineering,NO,12,10,2,83.33,YES
+24CS0073,Nisha Sinha,A,CS114,Theory of Computation,NO,39,30,9,76.92,YES
+24CS0073,Nisha Sinha,A,CS116,Artificial Intelligence,NO,13,10,3,76.92,YES
+24CS0073,Nisha Sinha,A,CS117,Machine Learning,NO,39,26,13,66.67,NO
+24CS0073,Nisha Sinha,A,CS118,Web Technologies,NO,14,11,3,78.57,YES
+24CS0073,Nisha Sinha,A,CS191,Physics Lab,YES,52,40,12,76.92,YES
+24CS0073,Nisha Sinha,A,CS192,Chemistry Lab,YES,60,44,16,73.33,NO
+24CS0073,Nisha Sinha,A,CS193,Programming in C Lab,YES,56,42,14,75.00,YES
+24CS0073,Nisha Sinha,A,CS194,Data Structures Lab,YES,48,40,8,83.33,YES
+24CS0073,Nisha Sinha,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0074,Gayatri Sinha,A,CS101,Engineering Mathematics I,NO,30,21,9,70.00,NO
+24CS0074,Gayatri Sinha,A,CS102,Physics for Engineers,NO,12,9,3,75.00,YES
+24CS0074,Gayatri Sinha,A,CS104,Programming in C,NO,27,20,7,74.07,NO
+24CS0074,Gayatri Sinha,A,CS105,Digital Logic Design,NO,12,8,4,66.67,NO
+24CS0074,Gayatri Sinha,A,CS107,Computer Organisation,NO,24,17,7,70.83,NO
+24CS0074,Gayatri Sinha,A,CS108,Discrete Mathematics,NO,41,24,17,58.54,NO
+24CS0074,Gayatri Sinha,A,CS109,Object Oriented Programming,NO,13,8,5,61.54,NO
+24CS0074,Gayatri Sinha,A,CS110,Database Management Systems,NO,25,17,8,68.00,NO
+24CS0074,Gayatri Sinha,A,CS111,Operating Systems,NO,29,18,11,62.07,NO
+24CS0074,Gayatri Sinha,A,CS113,Software Engineering,NO,12,9,3,75.00,YES
+24CS0074,Gayatri Sinha,A,CS114,Theory of Computation,NO,39,25,14,64.10,NO
+24CS0074,Gayatri Sinha,A,CS116,Artificial Intelligence,NO,13,8,5,61.54,NO
+24CS0074,Gayatri Sinha,A,CS117,Machine Learning,NO,39,26,13,66.67,NO
+24CS0074,Gayatri Sinha,A,CS118,Web Technologies,NO,14,8,6,57.14,NO
+24CS0074,Gayatri Sinha,A,CS191,Physics Lab,YES,52,32,20,61.54,NO
+24CS0074,Gayatri Sinha,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0074,Gayatri Sinha,A,CS193,Programming in C Lab,YES,56,32,24,57.14,NO
+24CS0074,Gayatri Sinha,A,CS194,Data Structures Lab,YES,48,34,14,70.83,NO
+24CS0074,Gayatri Sinha,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES
+24CS0075,Nikhil Desai,A,CS101,Engineering Mathematics I,NO,30,22,8,73.33,NO
+24CS0075,Nikhil Desai,A,CS102,Physics for Engineers,NO,12,8,4,66.67,NO
+24CS0075,Nikhil Desai,A,CS104,Programming in C,NO,27,21,6,77.78,YES
+24CS0075,Nikhil Desai,A,CS105,Digital Logic Design,NO,12,9,3,75.00,YES
+24CS0075,Nikhil Desai,A,CS107,Computer Organisation,NO,24,22,2,91.67,YES
+24CS0075,Nikhil Desai,A,CS108,Discrete Mathematics,NO,41,29,12,70.73,NO
+24CS0075,Nikhil Desai,A,CS109,Object Oriented Programming,NO,13,10,3,76.92,YES
+24CS0075,Nikhil Desai,A,CS110,Database Management Systems,NO,25,20,5,80.00,YES
+24CS0075,Nikhil Desai,A,CS111,Operating Systems,NO,29,19,10,65.52,NO
+24CS0075,Nikhil Desai,A,CS113,Software Engineering,NO,12,11,1,91.67,YES
+24CS0075,Nikhil Desai,A,CS114,Theory of Computation,NO,39,29,10,74.36,NO
+24CS0075,Nikhil Desai,A,CS116,Artificial Intelligence,NO,13,11,2,84.62,YES
+24CS0075,Nikhil Desai,A,CS117,Machine Learning,NO,39,30,9,76.92,YES
+24CS0075,Nikhil Desai,A,CS118,Web Technologies,NO,14,9,5,64.29,NO
+24CS0075,Nikhil Desai,A,CS191,Physics Lab,YES,52,42,10,80.77,YES
+24CS0075,Nikhil Desai,A,CS192,Chemistry Lab,YES,60,42,18,70.00,NO
+24CS0075,Nikhil Desai,A,CS193,Programming in C Lab,YES,56,36,20,64.29,NO
+24CS0075,Nikhil Desai,A,CS194,Data Structures Lab,YES,48,42,6,87.50,YES
+24CS0075,Nikhil Desai,A,CS195,DBMS Lab,YES,48,36,12,75.00,YES

@@ -1,0 +1,577 @@
+student_id,student_name,section,course_id,course_name,percentage,shortage_pct,status
+24CS0076,Zara Chakraborty,B,CS195,DBMS Lab,70.83,4.17,CONDONABLE
+24CS0076,Zara Chakraborty,B,CS104,Programming in C,66.66,8.34,CONDONABLE
+24CS0077,Sanjay Das,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0077,Sanjay Das,B,CS192,Chemistry Lab,73.33,1.67,CONDONABLE
+24CS0077,Sanjay Das,B,CS191,Physics Lab,73.07,1.93,DETAINED
+24CS0077,Sanjay Das,B,CS107,Computer Organisation,72.00,3.00,DETAINED
+24CS0077,Sanjay Das,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0077,Sanjay Das,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0077,Sanjay Das,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0077,Sanjay Das,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0077,Sanjay Das,B,CS108,Discrete Mathematics,65.38,9.62,DETAINED
+24CS0077,Sanjay Das,B,CS101,Engineering Mathematics I,55.81,19.19,DETAINED
+24CS0077,Sanjay Das,B,CS103,Chemistry for Engineers,50.00,25.00,DETAINED
+24CS0077,Sanjay Das,B,CS193,Programming in C Lab,46.42,28.58,DETAINED
+24CS0077,Sanjay Das,B,CS116,Artificial Intelligence,42.85,32.15,DETAINED
+24CS0078,Ravi Jain,B,CS107,Computer Organisation,68.00,7.00,CONDONABLE
+24CS0078,Ravi Jain,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0078,Ravi Jain,B,CS102,Physics for Engineers,61.53,13.47,DETAINED
+24CS0078,Ravi Jain,B,CS105,Digital Logic Design,61.53,13.47,DETAINED
+24CS0078,Ravi Jain,B,CS118,Web Technologies,61.53,13.47,DETAINED
+24CS0078,Ravi Jain,B,CS191,Physics Lab,61.53,13.47,DETAINED
+24CS0078,Ravi Jain,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0078,Ravi Jain,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0078,Ravi Jain,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0078,Ravi Jain,B,CS108,Discrete Mathematics,57.69,17.31,DETAINED
+24CS0078,Ravi Jain,B,CS194,Data Structures Lab,54.16,20.84,DETAINED
+24CS0078,Ravi Jain,B,CS112,Computer Networks,50.00,25.00,DETAINED
+24CS0078,Ravi Jain,B,CS193,Programming in C Lab,50.00,25.00,DETAINED
+24CS0078,Ravi Jain,B,CS101,Engineering Mathematics I,48.83,26.17,DETAINED
+24CS0078,Ravi Jain,B,CS109,Object Oriented Programming,46.66,28.34,DETAINED
+24CS0078,Ravi Jain,B,CS111,Operating Systems,46.66,28.34,DETAINED
+24CS0078,Ravi Jain,B,CS192,Chemistry Lab,46.66,28.34,DETAINED
+24CS0078,Ravi Jain,B,CS103,Chemistry for Engineers,42.85,32.15,DETAINED
+24CS0078,Ravi Jain,B,CS116,Artificial Intelligence,42.85,32.15,DETAINED
+24CS0079,Anjali Iyer,B,CS112,Computer Networks,70.00,5.00,CONDONABLE
+24CS0079,Anjali Iyer,B,CS106,Data Structures,66.66,8.34,CONDONABLE
+24CS0079,Anjali Iyer,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0079,Anjali Iyer,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0079,Anjali Iyer,B,CS192,Chemistry Lab,66.66,8.34,DETAINED
+24CS0079,Anjali Iyer,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0079,Anjali Iyer,B,CS105,Digital Logic Design,64.10,10.90,DETAINED
+24CS0079,Anjali Iyer,B,CS102,Physics for Engineers,61.53,13.47,DETAINED
+24CS0081,Tanisha Pillai,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0081,Tanisha Pillai,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0081,Tanisha Pillai,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0081,Tanisha Pillai,B,CS194,Data Structures Lab,70.83,4.17,DETAINED
+24CS0081,Tanisha Pillai,B,CS101,Engineering Mathematics I,69.76,5.24,DETAINED
+24CS0081,Tanisha Pillai,B,CS105,Digital Logic Design,69.23,5.77,DETAINED
+24CS0081,Tanisha Pillai,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0081,Tanisha Pillai,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0081,Tanisha Pillai,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0081,Tanisha Pillai,B,CS103,Chemistry for Engineers,64.28,10.72,DETAINED
+24CS0081,Tanisha Pillai,B,CS192,Chemistry Lab,63.33,11.67,DETAINED
+24CS0081,Tanisha Pillai,B,CS108,Discrete Mathematics,61.53,13.47,DETAINED
+24CS0081,Tanisha Pillai,B,CS195,DBMS Lab,58.33,16.67,DETAINED
+24CS0082,Sandhya Joshi,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0082,Sandhya Joshi,B,CS105,Digital Logic Design,69.23,5.77,CONDONABLE
+24CS0082,Sandhya Joshi,B,CS108,Discrete Mathematics,69.23,5.77,DETAINED
+24CS0082,Sandhya Joshi,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0082,Sandhya Joshi,B,CS110,Database Management Systems,68.00,7.00,DETAINED
+24CS0082,Sandhya Joshi,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0082,Sandhya Joshi,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0082,Sandhya Joshi,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0082,Sandhya Joshi,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0082,Sandhya Joshi,B,CS107,Computer Organisation,60.00,15.00,DETAINED
+24CS0082,Sandhya Joshi,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0082,Sandhya Joshi,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0082,Sandhya Joshi,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0082,Sandhya Joshi,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0084,Yamini Rao,B,CS107,Computer Organisation,72.00,3.00,CONDONABLE
+24CS0084,Yamini Rao,B,CS195,DBMS Lab,70.83,4.17,CONDONABLE
+24CS0084,Yamini Rao,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0084,Yamini Rao,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0084,Yamini Rao,B,CS110,Database Management Systems,68.00,7.00,DETAINED
+24CS0084,Yamini Rao,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0084,Yamini Rao,B,CS191,Physics Lab,65.38,9.62,DETAINED
+24CS0084,Yamini Rao,B,CS112,Computer Networks,62.50,12.50,DETAINED
+24CS0084,Yamini Rao,B,CS109,Object Oriented Programming,60.00,15.00,DETAINED
+24CS0084,Yamini Rao,B,CS111,Operating Systems,60.00,15.00,DETAINED
+24CS0084,Yamini Rao,B,CS192,Chemistry Lab,60.00,15.00,DETAINED
+24CS0084,Yamini Rao,B,CS105,Digital Logic Design,58.97,16.03,DETAINED
+24CS0084,Yamini Rao,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0084,Yamini Rao,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0084,Yamini Rao,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0084,Yamini Rao,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0085,Siddharth Gupta,B,CS108,Discrete Mathematics,73.07,1.93,CONDONABLE
+24CS0085,Siddharth Gupta,B,CS105,Digital Logic Design,71.79,3.21,CONDONABLE
+24CS0085,Siddharth Gupta,B,CS195,DBMS Lab,58.33,16.67,DETAINED
+24CS0085,Siddharth Gupta,B,CS107,Computer Organisation,48.00,27.00,DETAINED
+24CS0085,Siddharth Gupta,B,CS110,Database Management Systems,48.00,27.00,DETAINED
+24CS0085,Siddharth Gupta,B,CS102,Physics for Engineers,46.15,28.85,DETAINED
+24CS0085,Siddharth Gupta,B,CS191,Physics Lab,46.15,28.85,DETAINED
+24CS0085,Siddharth Gupta,B,CS106,Data Structures,41.66,33.34,DETAINED
+24CS0085,Siddharth Gupta,B,CS118,Web Technologies,38.46,36.54,DETAINED
+24CS0086,Suresh Jain,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0086,Suresh Jain,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0086,Suresh Jain,B,CS108,Discrete Mathematics,69.23,5.77,DETAINED
+24CS0086,Suresh Jain,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0086,Suresh Jain,B,CS110,Database Management Systems,68.00,7.00,DETAINED
+24CS0086,Suresh Jain,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0086,Suresh Jain,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0086,Suresh Jain,B,CS101,Engineering Mathematics I,62.79,12.21,DETAINED
+24CS0086,Suresh Jain,B,CS109,Object Oriented Programming,60.00,15.00,DETAINED
+24CS0086,Suresh Jain,B,CS111,Operating Systems,60.00,15.00,DETAINED
+24CS0086,Suresh Jain,B,CS112,Computer Networks,60.00,15.00,DETAINED
+24CS0086,Suresh Jain,B,CS105,Digital Logic Design,58.97,16.03,DETAINED
+24CS0086,Suresh Jain,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0086,Suresh Jain,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0086,Suresh Jain,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0086,Suresh Jain,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0086,Suresh Jain,B,CS195,DBMS Lab,58.33,16.67,DETAINED
+24CS0086,Suresh Jain,B,CS192,Chemistry Lab,56.66,18.34,DETAINED
+24CS0088,Akash Agarwal,B,CS101,Engineering Mathematics I,74.41,0.59,CONDONABLE
+24CS0088,Akash Agarwal,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0088,Akash Agarwal,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0088,Akash Agarwal,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0089,Suresh Jain,B,CS107,Computer Organisation,68.00,7.00,CONDONABLE
+24CS0089,Suresh Jain,B,CS110,Database Management Systems,68.00,7.00,CONDONABLE
+24CS0089,Suresh Jain,B,CS108,Discrete Mathematics,65.38,9.62,DETAINED
+24CS0089,Suresh Jain,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0089,Suresh Jain,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0089,Suresh Jain,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0089,Suresh Jain,B,CS105,Digital Logic Design,56.41,18.59,DETAINED
+24CS0089,Suresh Jain,B,CS102,Physics for Engineers,53.84,21.16,DETAINED
+24CS0089,Suresh Jain,B,CS191,Physics Lab,53.84,21.16,DETAINED
+24CS0089,Suresh Jain,B,CS103,Chemistry for Engineers,50.00,25.00,DETAINED
+24CS0089,Suresh Jain,B,CS104,Programming in C,50.00,25.00,DETAINED
+24CS0089,Suresh Jain,B,CS112,Computer Networks,50.00,25.00,DETAINED
+24CS0089,Suresh Jain,B,CS116,Artificial Intelligence,50.00,25.00,DETAINED
+24CS0089,Suresh Jain,B,CS111,Operating Systems,46.66,28.34,DETAINED
+24CS0089,Suresh Jain,B,CS192,Chemistry Lab,46.66,28.34,DETAINED
+24CS0089,Suresh Jain,B,CS101,Engineering Mathematics I,46.51,28.49,DETAINED
+24CS0089,Suresh Jain,B,CS193,Programming in C Lab,42.85,32.15,DETAINED
+24CS0089,Suresh Jain,B,CS109,Object Oriented Programming,40.00,35.00,DETAINED
+24CS0089,Suresh Jain,B,CS118,Web Technologies,38.46,36.54,DETAINED
+24CS0090,Sandhya Srivastava,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0090,Sandhya Srivastava,B,CS192,Chemistry Lab,73.33,1.67,CONDONABLE
+24CS0090,Sandhya Srivastava,B,CS107,Computer Organisation,72.00,3.00,DETAINED
+24CS0090,Sandhya Srivastava,B,CS110,Database Management Systems,72.00,3.00,DETAINED
+24CS0090,Sandhya Srivastava,B,CS105,Digital Logic Design,69.23,5.77,DETAINED
+24CS0090,Sandhya Srivastava,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0090,Sandhya Srivastava,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0090,Sandhya Srivastava,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0090,Sandhya Srivastava,B,CS108,Discrete Mathematics,61.53,13.47,DETAINED
+24CS0090,Sandhya Srivastava,B,CS101,Engineering Mathematics I,58.13,16.87,DETAINED
+24CS0090,Sandhya Srivastava,B,CS103,Chemistry for Engineers,57.14,17.86,DETAINED
+24CS0090,Sandhya Srivastava,B,CS116,Artificial Intelligence,57.14,17.86,DETAINED
+24CS0090,Sandhya Srivastava,B,CS193,Programming in C Lab,57.14,17.86,DETAINED
+24CS0091,Bhavana Chakraborty,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0091,Bhavana Chakraborty,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0091,Bhavana Chakraborty,B,CS112,Computer Networks,70.00,5.00,DETAINED
+24CS0091,Bhavana Chakraborty,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0091,Bhavana Chakraborty,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0091,Bhavana Chakraborty,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0091,Bhavana Chakraborty,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0092,Mohit Reddy,B,CS112,Computer Networks,70.00,5.00,CONDONABLE
+24CS0092,Mohit Reddy,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0092,Mohit Reddy,B,CS105,Digital Logic Design,69.23,5.77,DETAINED
+24CS0092,Mohit Reddy,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0092,Mohit Reddy,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0092,Mohit Reddy,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0092,Mohit Reddy,B,CS194,Data Structures Lab,54.16,20.84,DETAINED
+24CS0092,Mohit Reddy,B,CS113,Software Engineering,50.00,25.00,DETAINED
+24CS0093,Akash Joshi,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0093,Akash Joshi,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0093,Akash Joshi,B,CS192,Chemistry Lab,70.00,5.00,DETAINED
+24CS0093,Akash Joshi,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0093,Akash Joshi,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0093,Akash Joshi,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0093,Akash Joshi,B,CS191,Physics Lab,65.38,9.62,DETAINED
+24CS0093,Akash Joshi,B,CS102,Physics for Engineers,61.53,13.47,DETAINED
+24CS0093,Akash Joshi,B,CS118,Web Technologies,61.53,13.47,DETAINED
+24CS0095,Tejas Das,B,CS101,Engineering Mathematics I,72.09,2.91,CONDONABLE
+24CS0095,Tejas Das,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0095,Tejas Das,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0095,Tejas Das,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0096,Nisha Sharma,B,CS112,Computer Networks,70.00,5.00,CONDONABLE
+24CS0096,Nisha Sharma,B,CS101,Engineering Mathematics I,69.76,5.24,CONDONABLE
+24CS0096,Nisha Sharma,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0096,Nisha Sharma,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0096,Nisha Sharma,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0096,Nisha Sharma,B,CS108,Discrete Mathematics,65.38,9.62,DETAINED
+24CS0096,Nisha Sharma,B,CS107,Computer Organisation,60.00,15.00,DETAINED
+24CS0096,Nisha Sharma,B,CS111,Operating Systems,60.00,15.00,DETAINED
+24CS0096,Nisha Sharma,B,CS192,Chemistry Lab,60.00,15.00,DETAINED
+24CS0096,Nisha Sharma,B,CS105,Digital Logic Design,58.97,16.03,DETAINED
+24CS0096,Nisha Sharma,B,CS110,Database Management Systems,56.00,19.00,DETAINED
+24CS0096,Nisha Sharma,B,CS109,Object Oriented Programming,53.33,21.67,DETAINED
+24CS0096,Nisha Sharma,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0096,Nisha Sharma,B,CS195,DBMS Lab,45.83,29.17,DETAINED
+24CS0097,Ishaan Gandhi,B,CS107,Computer Organisation,72.00,3.00,CONDONABLE
+24CS0097,Ishaan Gandhi,B,CS110,Database Management Systems,72.00,3.00,CONDONABLE
+24CS0097,Ishaan Gandhi,B,CS105,Digital Logic Design,71.79,3.21,DETAINED
+24CS0097,Ishaan Gandhi,B,CS103,Chemistry for Engineers,71.42,3.58,DETAINED
+24CS0097,Ishaan Gandhi,B,CS108,Discrete Mathematics,69.23,5.77,DETAINED
+24CS0097,Ishaan Gandhi,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0097,Ishaan Gandhi,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0097,Ishaan Gandhi,B,CS195,DBMS Lab,62.50,12.50,DETAINED
+24CS0097,Ishaan Gandhi,B,CS106,Data Structures,58.33,16.67,DETAINED
+24CS0097,Ishaan Gandhi,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0097,Ishaan Gandhi,B,CS104,Programming in C,41.66,33.34,DETAINED
+24CS0098,Aditya Gandhi,B,CS112,Computer Networks,72.50,2.50,CONDONABLE
+24CS0098,Aditya Gandhi,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0098,Aditya Gandhi,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0098,Aditya Gandhi,B,CS101,Engineering Mathematics I,69.76,5.24,DETAINED
+24CS0098,Aditya Gandhi,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0098,Aditya Gandhi,B,CS107,Computer Organisation,64.00,11.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS108,Discrete Mathematics,61.53,13.47,DETAINED
+24CS0098,Aditya Gandhi,B,CS105,Digital Logic Design,58.97,16.03,DETAINED
+24CS0098,Aditya Gandhi,B,CS104,Programming in C,50.00,25.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS113,Software Engineering,50.00,25.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS194,Data Structures Lab,50.00,25.00,DETAINED
+24CS0098,Aditya Gandhi,B,CS195,DBMS Lab,45.83,29.17,DETAINED
+24CS0098,Aditya Gandhi,B,CS114,Theory of Computation,33.33,41.67,DETAINED
+24CS0099,Nisha Sinha,B,CS108,Discrete Mathematics,73.07,1.93,CONDONABLE
+24CS0099,Nisha Sinha,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0099,Nisha Sinha,B,CS195,DBMS Lab,70.83,4.17,DETAINED
+24CS0099,Nisha Sinha,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0099,Nisha Sinha,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0099,Nisha Sinha,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0101,Rahul Iyer,B,CS101,Engineering Mathematics I,74.41,0.59,CONDONABLE
+24CS0101,Rahul Iyer,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0101,Rahul Iyer,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0101,Rahul Iyer,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0102,Priya Kumar,B,CS105,Digital Logic Design,74.35,0.65,CONDONABLE
+24CS0102,Priya Kumar,B,CS118,Web Technologies,69.23,5.77,CONDONABLE
+24CS0102,Priya Kumar,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0102,Priya Kumar,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0102,Priya Kumar,B,CS108,Discrete Mathematics,65.38,9.62,DETAINED
+24CS0102,Priya Kumar,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0102,Priya Kumar,B,CS195,DBMS Lab,58.33,16.67,DETAINED
+24CS0102,Priya Kumar,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0103,Harish Iyer,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0103,Harish Iyer,B,CS112,Computer Networks,70.00,5.00,CONDONABLE
+24CS0103,Harish Iyer,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0103,Harish Iyer,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0103,Harish Iyer,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0103,Harish Iyer,B,CS191,Physics Lab,65.38,9.62,DETAINED
+24CS0103,Harish Iyer,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0104,Nikhil Kapoor,B,CS107,Computer Organisation,60.00,15.00,DETAINED
+24CS0104,Nikhil Kapoor,B,CS110,Database Management Systems,60.00,15.00,DETAINED
+24CS0104,Nikhil Kapoor,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0104,Nikhil Kapoor,B,CS105,Digital Logic Design,56.41,18.59,DETAINED
+24CS0104,Nikhil Kapoor,B,CS194,Data Structures Lab,54.16,20.84,DETAINED
+24CS0104,Nikhil Kapoor,B,CS104,Programming in C,50.00,25.00,DETAINED
+24CS0104,Nikhil Kapoor,B,CS113,Software Engineering,50.00,25.00,DETAINED
+24CS0104,Nikhil Kapoor,B,CS109,Object Oriented Programming,46.66,28.34,DETAINED
+24CS0104,Nikhil Kapoor,B,CS111,Operating Systems,46.66,28.34,DETAINED
+24CS0104,Nikhil Kapoor,B,CS192,Chemistry Lab,46.66,28.34,DETAINED
+24CS0104,Nikhil Kapoor,B,CS102,Physics for Engineers,46.15,28.85,DETAINED
+24CS0104,Nikhil Kapoor,B,CS191,Physics Lab,46.15,28.85,DETAINED
+24CS0104,Nikhil Kapoor,B,CS112,Computer Networks,45.00,30.00,DETAINED
+24CS0104,Nikhil Kapoor,B,CS118,Web Technologies,38.46,36.54,DETAINED
+24CS0105,Karthik Kumar,B,CS101,Engineering Mathematics I,74.41,0.59,CONDONABLE
+24CS0105,Karthik Kumar,B,CS105,Digital Logic Design,74.35,0.65,CONDONABLE
+24CS0105,Karthik Kumar,B,CS112,Computer Networks,72.50,2.50,DETAINED
+24CS0105,Karthik Kumar,B,CS194,Data Structures Lab,70.83,4.17,DETAINED
+24CS0105,Karthik Kumar,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0105,Karthik Kumar,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0105,Karthik Kumar,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0105,Karthik Kumar,B,CS192,Chemistry Lab,63.33,11.67,DETAINED
+24CS0106,Sakshi Kapoor,B,CS105,Digital Logic Design,74.35,0.65,CONDONABLE
+24CS0106,Sakshi Kapoor,B,CS101,Engineering Mathematics I,72.09,2.91,CONDONABLE
+24CS0106,Sakshi Kapoor,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0106,Sakshi Kapoor,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS192,Chemistry Lab,66.66,8.34,DETAINED
+24CS0106,Sakshi Kapoor,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0107,Jaya Gandhi,B,CS109,Object Oriented Programming,71.42,3.58,CONDONABLE
+24CS0107,Jaya Gandhi,B,CS103,Chemistry for Engineers,69.23,5.77,CONDONABLE
+24CS0107,Jaya Gandhi,B,CS102,Physics for Engineers,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS110,Database Management Systems,70.83,4.17,CONDONABLE
+24CS0108,Meera Verma,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0108,Meera Verma,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0108,Meera Verma,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0108,Meera Verma,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0108,Meera Verma,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0108,Meera Verma,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS105,Digital Logic Design,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS192,Chemistry Lab,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0108,Meera Verma,B,CS111,Operating Systems,60.00,15.00,DETAINED
+24CS0109,Ravi Das,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0109,Ravi Das,B,CS106,Data Structures,66.66,8.34,CONDONABLE
+24CS0109,Ravi Das,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0111,Aarav Pillai,B,CS104,Programming in C,66.66,8.34,CONDONABLE
+24CS0111,Aarav Pillai,B,CS114,Theory of Computation,66.66,8.34,CONDONABLE
+24CS0111,Aarav Pillai,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0111,Aarav Pillai,B,CS112,Computer Networks,65.00,10.00,DETAINED
+24CS0111,Aarav Pillai,B,CS103,Chemistry for Engineers,64.28,10.72,DETAINED
+24CS0111,Aarav Pillai,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0111,Aarav Pillai,B,CS193,Programming in C Lab,64.28,10.72,DETAINED
+24CS0111,Aarav Pillai,B,CS107,Computer Organisation,64.00,11.00,DETAINED
+24CS0111,Aarav Pillai,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0111,Aarav Pillai,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0111,Aarav Pillai,B,CS101,Engineering Mathematics I,58.13,16.87,DETAINED
+24CS0111,Aarav Pillai,B,CS195,DBMS Lab,54.16,20.84,DETAINED
+24CS0111,Aarav Pillai,B,CS108,Discrete Mathematics,53.84,21.16,DETAINED
+24CS0111,Aarav Pillai,B,CS111,Operating Systems,53.33,21.67,DETAINED
+24CS0111,Aarav Pillai,B,CS192,Chemistry Lab,53.33,21.67,DETAINED
+24CS0111,Aarav Pillai,B,CS105,Digital Logic Design,51.28,23.72,DETAINED
+24CS0111,Aarav Pillai,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0111,Aarav Pillai,B,CS109,Object Oriented Programming,46.66,28.34,DETAINED
+24CS0112,Anjali Sinha,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0112,Anjali Sinha,B,CS192,Chemistry Lab,70.00,5.00,CONDONABLE
+24CS0112,Anjali Sinha,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0112,Anjali Sinha,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0112,Anjali Sinha,B,CS107,Computer Organisation,64.00,11.00,DETAINED
+24CS0112,Anjali Sinha,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0112,Anjali Sinha,B,CS105,Digital Logic Design,56.41,18.59,DETAINED
+24CS0112,Anjali Sinha,B,CS101,Engineering Mathematics I,53.48,21.52,DETAINED
+24CS0112,Anjali Sinha,B,CS103,Chemistry for Engineers,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS104,Programming in C,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS113,Software Engineering,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS114,Theory of Computation,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS116,Artificial Intelligence,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS194,Data Structures Lab,50.00,25.00,DETAINED
+24CS0112,Anjali Sinha,B,CS193,Programming in C Lab,46.42,28.58,DETAINED
+24CS0112,Anjali Sinha,B,CS108,Discrete Mathematics,46.15,28.85,DETAINED
+24CS0112,Anjali Sinha,B,CS106,Data Structures,41.66,33.34,DETAINED
+24CS0112,Anjali Sinha,B,CS195,DBMS Lab,37.50,37.50,DETAINED
+24CS0113,Tejas Das,B,CS194,Data Structures Lab,70.83,4.17,CONDONABLE
+24CS0113,Tejas Das,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0113,Tejas Das,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0115,Kavya Rao,B,CS193,Programming in C Lab,71.42,3.58,CONDONABLE
+24CS0115,Kavya Rao,B,CS101,Engineering Mathematics I,67.44,7.56,CONDONABLE
+24CS0115,Kavya Rao,B,CS192,Chemistry Lab,60.00,15.00,DETAINED
+24CS0115,Kavya Rao,B,CS109,Object Oriented Programming,53.33,21.67,DETAINED
+24CS0115,Kavya Rao,B,CS111,Operating Systems,53.33,21.67,DETAINED
+24CS0116,Tejas Mehta,B,CS191,Physics Lab,73.07,1.93,CONDONABLE
+24CS0116,Tejas Mehta,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0116,Tejas Mehta,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0118,Gayatri Mishra,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0118,Gayatri Mishra,B,CS191,Physics Lab,69.23,5.77,CONDONABLE
+24CS0119,Pranav Sinha,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0119,Pranav Sinha,B,CS118,Web Technologies,69.23,5.77,CONDONABLE
+24CS0120,Yamini Gandhi,B,CS107,Computer Organisation,72.00,3.00,CONDONABLE
+24CS0120,Yamini Gandhi,B,CS110,Database Management Systems,72.00,3.00,CONDONABLE
+24CS0120,Yamini Gandhi,B,CS195,DBMS Lab,70.83,4.17,DETAINED
+24CS0120,Yamini Gandhi,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0120,Yamini Gandhi,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0122,Zara Iyer,B,CS101,Engineering Mathematics I,74.41,0.59,CONDONABLE
+24CS0122,Zara Iyer,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0122,Zara Iyer,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0123,Farhan Desai,B,CS195,DBMS Lab,72.72,2.28,CONDONABLE
+24CS0123,Farhan Desai,B,CS108,Discrete Mathematics,70.83,4.17,CONDONABLE
+24CS0123,Farhan Desai,B,CS103,Chemistry for Engineers,69.23,5.77,DETAINED
+24CS0123,Farhan Desai,B,CS116,Artificial Intelligence,69.23,5.77,DETAINED
+24CS0123,Farhan Desai,B,CS112,Computer Networks,67.56,7.44,DETAINED
+24CS0123,Farhan Desai,B,CS193,Programming in C Lab,65.38,9.62,DETAINED
+24CS0123,Farhan Desai,B,CS104,Programming in C,63.63,11.37,DETAINED
+24CS0123,Farhan Desai,B,CS106,Data Structures,63.63,11.37,DETAINED
+24CS0123,Farhan Desai,B,CS105,Digital Logic Design,61.11,13.89,DETAINED
+24CS0123,Farhan Desai,B,CS101,Engineering Mathematics I,57.50,17.50,DETAINED
+24CS0123,Farhan Desai,B,CS109,Object Oriented Programming,50.00,25.00,DETAINED
+24CS0123,Farhan Desai,B,CS111,Operating Systems,50.00,25.00,DETAINED
+24CS0123,Farhan Desai,B,CS192,Chemistry Lab,50.00,25.00,DETAINED
+24CS0124,Sneha Yadav,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0124,Sneha Yadav,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0124,Sneha Yadav,B,CS192,Chemistry Lab,73.33,1.67,DETAINED
+24CS0124,Sneha Yadav,B,CS110,Database Management Systems,72.00,3.00,DETAINED
+24CS0124,Sneha Yadav,B,CS103,Chemistry for Engineers,71.42,3.58,DETAINED
+24CS0124,Sneha Yadav,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0124,Sneha Yadav,B,CS105,Digital Logic Design,69.23,5.77,DETAINED
+24CS0124,Sneha Yadav,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0124,Sneha Yadav,B,CS193,Programming in C Lab,67.85,7.15,DETAINED
+24CS0124,Sneha Yadav,B,CS101,Engineering Mathematics I,67.44,7.56,DETAINED
+24CS0124,Sneha Yadav,B,CS107,Computer Organisation,64.00,11.00,DETAINED
+24CS0124,Sneha Yadav,B,CS108,Discrete Mathematics,61.53,13.47,DETAINED
+24CS0124,Sneha Yadav,B,CS195,DBMS Lab,58.33,16.67,DETAINED
+24CS0124,Sneha Yadav,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0125,Suresh Reddy,B,CS108,Discrete Mathematics,73.07,1.93,CONDONABLE
+24CS0125,Suresh Reddy,B,CS112,Computer Networks,72.50,2.50,CONDONABLE
+24CS0125,Suresh Reddy,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0125,Suresh Reddy,B,CS105,Digital Logic Design,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS192,Chemistry Lab,66.66,8.34,DETAINED
+24CS0125,Suresh Reddy,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0126,Nandini Patel,B,CS191,Physics Lab,73.07,1.93,CONDONABLE
+24CS0126,Nandini Patel,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0126,Nandini Patel,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0126,Nandini Patel,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0126,Nandini Patel,B,CS194,Data Structures Lab,54.16,20.84,DETAINED
+24CS0127,Tanisha Srivastava,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0127,Tanisha Srivastava,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0127,Tanisha Srivastava,B,CS108,Discrete Mathematics,73.07,1.93,DETAINED
+24CS0127,Tanisha Srivastava,B,CS107,Computer Organisation,72.00,3.00,DETAINED
+24CS0127,Tanisha Srivastava,B,CS103,Chemistry for Engineers,71.42,3.58,DETAINED
+24CS0127,Tanisha Srivastava,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0127,Tanisha Srivastava,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0127,Tanisha Srivastava,B,CS195,DBMS Lab,70.83,4.17,DETAINED
+24CS0127,Tanisha Srivastava,B,CS101,Engineering Mathematics I,69.76,5.24,DETAINED
+24CS0127,Tanisha Srivastava,B,CS105,Digital Logic Design,69.23,5.77,DETAINED
+24CS0127,Tanisha Srivastava,B,CS112,Computer Networks,67.50,7.50,DETAINED
+24CS0127,Tanisha Srivastava,B,CS192,Chemistry Lab,66.66,8.34,DETAINED
+24CS0127,Tanisha Srivastava,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0127,Tanisha Srivastava,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0127,Tanisha Srivastava,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0127,Tanisha Srivastava,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0129,Varun Pillai,B,CS191,Physics Lab,73.07,1.93,CONDONABLE
+24CS0129,Varun Pillai,B,CS112,Computer Networks,72.50,2.50,CONDONABLE
+24CS0129,Varun Pillai,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0129,Varun Pillai,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0129,Varun Pillai,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0129,Varun Pillai,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0129,Varun Pillai,B,CS103,Chemistry for Engineers,64.28,10.72,DETAINED
+24CS0129,Varun Pillai,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0129,Varun Pillai,B,CS193,Programming in C Lab,64.28,10.72,DETAINED
+24CS0129,Varun Pillai,B,CS101,Engineering Mathematics I,60.46,14.54,DETAINED
+24CS0129,Varun Pillai,B,CS192,Chemistry Lab,60.00,15.00,DETAINED
+24CS0130,Ishaan Das,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0131,Priya Sinha,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0131,Priya Sinha,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0131,Priya Sinha,B,CS105,Digital Logic Design,71.79,3.21,DETAINED
+24CS0131,Priya Sinha,B,CS112,Computer Networks,70.00,5.00,DETAINED
+24CS0131,Priya Sinha,B,CS192,Chemistry Lab,70.00,5.00,DETAINED
+24CS0131,Priya Sinha,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0131,Priya Sinha,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0131,Priya Sinha,B,CS113,Software Engineering,58.33,16.67,DETAINED
+24CS0131,Priya Sinha,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0131,Priya Sinha,B,CS114,Theory of Computation,50.00,25.00,DETAINED
+24CS0132,Pranav Sharma,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0132,Pranav Sharma,B,CS105,Digital Logic Design,71.79,3.21,CONDONABLE
+24CS0132,Pranav Sharma,B,CS116,Artificial Intelligence,71.42,3.58,DETAINED
+24CS0132,Pranav Sharma,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0132,Pranav Sharma,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0133,Sandhya Nair,B,CS101,Engineering Mathematics I,74.41,0.59,CONDONABLE
+24CS0133,Sandhya Nair,B,CS112,Computer Networks,72.50,2.50,CONDONABLE
+24CS0133,Sandhya Nair,B,CS110,Database Management Systems,72.00,3.00,DETAINED
+24CS0133,Sandhya Nair,B,CS105,Digital Logic Design,71.79,3.21,DETAINED
+24CS0133,Sandhya Nair,B,CS118,Web Technologies,69.23,5.77,DETAINED
+24CS0133,Sandhya Nair,B,CS109,Object Oriented Programming,60.00,15.00,DETAINED
+24CS0133,Sandhya Nair,B,CS192,Chemistry Lab,56.66,18.34,DETAINED
+24CS0133,Sandhya Nair,B,CS111,Operating Systems,53.33,21.67,DETAINED
+24CS0135,Suresh Jain,B,CS104,Programming in C,66.66,8.34,CONDONABLE
+24CS0135,Suresh Jain,B,CS109,Object Oriented Programming,66.66,8.34,CONDONABLE
+24CS0135,Suresh Jain,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0135,Suresh Jain,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0135,Suresh Jain,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0135,Suresh Jain,B,CS112,Computer Networks,60.00,15.00,DETAINED
+24CS0135,Suresh Jain,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0135,Suresh Jain,B,CS192,Chemistry Lab,56.66,18.34,DETAINED
+24CS0135,Suresh Jain,B,CS105,Digital Logic Design,53.84,21.16,DETAINED
+24CS0135,Suresh Jain,B,CS118,Web Technologies,53.84,21.16,DETAINED
+24CS0135,Suresh Jain,B,CS107,Computer Organisation,52.00,23.00,DETAINED
+24CS0135,Suresh Jain,B,CS101,Engineering Mathematics I,51.16,23.84,DETAINED
+24CS0135,Suresh Jain,B,CS103,Chemistry for Engineers,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS106,Data Structures,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS116,Artificial Intelligence,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS191,Physics Lab,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS193,Programming in C Lab,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS195,DBMS Lab,50.00,25.00,DETAINED
+24CS0135,Suresh Jain,B,CS110,Database Management Systems,48.00,27.00,DETAINED
+24CS0135,Suresh Jain,B,CS102,Physics for Engineers,46.15,28.85,DETAINED
+24CS0135,Suresh Jain,B,CS108,Discrete Mathematics,46.15,28.85,DETAINED
+24CS0136,Karthik Nair,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0136,Karthik Nair,B,CS111,Operating Systems,73.33,1.67,CONDONABLE
+24CS0136,Karthik Nair,B,CS112,Computer Networks,72.50,2.50,DETAINED
+24CS0136,Karthik Nair,B,CS103,Chemistry for Engineers,71.42,3.58,DETAINED
+24CS0136,Karthik Nair,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0136,Karthik Nair,B,CS101,Engineering Mathematics I,69.76,5.24,DETAINED
+24CS0136,Karthik Nair,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0136,Karthik Nair,B,CS108,Discrete Mathematics,69.23,5.77,DETAINED
+24CS0136,Karthik Nair,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0136,Karthik Nair,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0136,Karthik Nair,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS105,Digital Logic Design,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS194,Data Structures Lab,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS195,DBMS Lab,66.66,8.34,DETAINED
+24CS0136,Karthik Nair,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0136,Karthik Nair,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0136,Karthik Nair,B,CS118,Web Technologies,61.53,13.47,DETAINED
+24CS0137,Ishaan Jain,B,CS109,Object Oriented Programming,73.33,1.67,CONDONABLE
+24CS0137,Ishaan Jain,B,CS192,Chemistry Lab,73.33,1.67,CONDONABLE
+24CS0137,Ishaan Jain,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0138,Sakshi Chakraborty,B,CS194,Data Structures Lab,70.83,4.17,CONDONABLE
+24CS0139,Nandini Srivastava,B,CS194,Data Structures Lab,70.83,4.17,CONDONABLE
+24CS0139,Nandini Srivastava,B,CS113,Software Engineering,66.66,8.34,CONDONABLE
+24CS0139,Nandini Srivastava,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0141,Priya Mishra,B,CS105,Digital Logic Design,69.23,5.77,CONDONABLE
+24CS0141,Priya Mishra,B,CS107,Computer Organisation,68.00,7.00,CONDONABLE
+24CS0141,Priya Mishra,B,CS104,Programming in C,66.66,8.34,DETAINED
+24CS0141,Priya Mishra,B,CS109,Object Oriented Programming,66.66,8.34,DETAINED
+24CS0141,Priya Mishra,B,CS111,Operating Systems,66.66,8.34,DETAINED
+24CS0141,Priya Mishra,B,CS113,Software Engineering,66.66,8.34,DETAINED
+24CS0141,Priya Mishra,B,CS114,Theory of Computation,66.66,8.34,DETAINED
+24CS0141,Priya Mishra,B,CS194,Data Structures Lab,62.50,12.50,DETAINED
+24CS0141,Priya Mishra,B,CS102,Physics for Engineers,61.53,13.47,DETAINED
+24CS0141,Priya Mishra,B,CS118,Web Technologies,61.53,13.47,DETAINED
+24CS0141,Priya Mishra,B,CS191,Physics Lab,61.53,13.47,DETAINED
+24CS0141,Priya Mishra,B,CS110,Database Management Systems,60.00,15.00,DETAINED
+24CS0141,Priya Mishra,B,CS192,Chemistry Lab,60.00,15.00,DETAINED
+24CS0141,Priya Mishra,B,CS112,Computer Networks,57.50,17.50,DETAINED
+24CS0141,Priya Mishra,B,CS108,Discrete Mathematics,53.84,21.16,DETAINED
+24CS0141,Priya Mishra,B,CS101,Engineering Mathematics I,48.83,26.17,DETAINED
+24CS0141,Priya Mishra,B,CS103,Chemistry for Engineers,42.85,32.15,DETAINED
+24CS0141,Priya Mishra,B,CS116,Artificial Intelligence,42.85,32.15,DETAINED
+24CS0141,Priya Mishra,B,CS193,Programming in C Lab,39.28,35.72,DETAINED
+24CS0142,Nisha Mehta,B,CS112,Computer Networks,72.50,2.50,CONDONABLE
+24CS0142,Nisha Mehta,B,CS195,DBMS Lab,70.83,4.17,CONDONABLE
+24CS0142,Nisha Mehta,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0142,Nisha Mehta,B,CS110,Database Management Systems,64.00,11.00,DETAINED
+24CS0142,Nisha Mehta,B,CS191,Physics Lab,61.53,13.47,DETAINED
+24CS0142,Nisha Mehta,B,CS118,Web Technologies,53.84,21.16,DETAINED
+24CS0142,Nisha Mehta,B,CS102,Physics for Engineers,46.15,28.85,DETAINED
+24CS0143,Zara Reddy,B,CS118,Web Technologies,69.23,5.77,CONDONABLE
+24CS0144,Meera Joshi,B,CS103,Chemistry for Engineers,71.42,3.58,CONDONABLE
+24CS0144,Meera Joshi,B,CS116,Artificial Intelligence,71.42,3.58,CONDONABLE
+24CS0144,Meera Joshi,B,CS108,Discrete Mathematics,65.38,9.62,DETAINED
+24CS0144,Meera Joshi,B,CS106,Data Structures,58.33,16.67,DETAINED
+24CS0144,Meera Joshi,B,CS195,DBMS Lab,54.16,20.84,DETAINED
+24CS0144,Meera Joshi,B,CS110,Database Management Systems,52.00,23.00,DETAINED
+24CS0144,Meera Joshi,B,CS107,Computer Organisation,48.00,27.00,DETAINED
+24CS0144,Meera Joshi,B,CS102,Physics for Engineers,46.15,28.85,DETAINED
+24CS0144,Meera Joshi,B,CS118,Web Technologies,46.15,28.85,DETAINED
+24CS0144,Meera Joshi,B,CS191,Physics Lab,42.30,32.70,DETAINED
+24CS0145,Nisha Rao,B,CS102,Physics for Engineers,69.23,5.77,CONDONABLE
+24CS0145,Nisha Rao,B,CS118,Web Technologies,69.23,5.77,CONDONABLE
+24CS0145,Nisha Rao,B,CS191,Physics Lab,69.23,5.77,DETAINED
+24CS0146,Karthik Mishra,B,CS109,Object Oriented Programming,71.42,3.58,CONDONABLE
+24CS0146,Karthik Mishra,B,CS111,Operating Systems,71.42,3.58,CONDONABLE
+24CS0146,Karthik Mishra,B,CS192,Chemistry Lab,67.85,7.15,DETAINED
+24CS0146,Karthik Mishra,B,CS191,Physics Lab,66.66,8.34,DETAINED
+24CS0146,Karthik Mishra,B,CS101,Engineering Mathematics I,62.50,12.50,DETAINED
+24CS0146,Karthik Mishra,B,CS112,Computer Networks,62.16,12.84,DETAINED
+24CS0146,Karthik Mishra,B,CS103,Chemistry for Engineers,61.53,13.47,DETAINED
+24CS0146,Karthik Mishra,B,CS116,Artificial Intelligence,61.53,13.47,DETAINED
+24CS0146,Karthik Mishra,B,CS102,Physics for Engineers,58.33,16.67,DETAINED
+24CS0146,Karthik Mishra,B,CS105,Digital Logic Design,58.33,16.67,DETAINED
+24CS0146,Karthik Mishra,B,CS108,Discrete Mathematics,58.33,16.67,DETAINED
+24CS0146,Karthik Mishra,B,CS118,Web Technologies,58.33,16.67,DETAINED
+24CS0146,Karthik Mishra,B,CS193,Programming in C Lab,57.69,17.31,DETAINED
+24CS0146,Karthik Mishra,B,CS107,Computer Organisation,56.52,18.48,DETAINED
+24CS0146,Karthik Mishra,B,CS110,Database Management Systems,56.52,18.48,DETAINED
+24CS0146,Karthik Mishra,B,CS104,Programming in C,54.54,20.46,DETAINED
+24CS0146,Karthik Mishra,B,CS106,Data Structures,54.54,20.46,DETAINED
+24CS0146,Karthik Mishra,B,CS114,Theory of Computation,54.54,20.46,DETAINED
+24CS0146,Karthik Mishra,B,CS194,Data Structures Lab,54.54,20.46,DETAINED
+24CS0146,Karthik Mishra,B,CS195,DBMS Lab,54.54,20.46,DETAINED
+24CS0146,Karthik Mishra,B,CS113,Software Engineering,45.45,29.55,DETAINED
+24CS0148,Priya Desai,B,CS101,Engineering Mathematics I,72.09,2.91,CONDONABLE
+24CS0148,Priya Desai,B,CS107,Computer Organisation,72.00,3.00,CONDONABLE
+24CS0148,Priya Desai,B,CS103,Chemistry for Engineers,71.42,3.58,DETAINED
+24CS0148,Priya Desai,B,CS193,Programming in C Lab,71.42,3.58,DETAINED
+24CS0148,Priya Desai,B,CS192,Chemistry Lab,70.00,5.00,DETAINED
+24CS0148,Priya Desai,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0148,Priya Desai,B,CS116,Artificial Intelligence,64.28,10.72,DETAINED
+24CS0148,Priya Desai,B,CS195,DBMS Lab,62.50,12.50,DETAINED
+24CS0148,Priya Desai,B,CS108,Discrete Mathematics,61.53,13.47,DETAINED
+24CS0148,Priya Desai,B,CS104,Programming in C,58.33,16.67,DETAINED
+24CS0149,Shreya Reddy,B,CS114,Theory of Computation,58.33,16.67,DETAINED
+24CS0149,Shreya Reddy,B,CS194,Data Structures Lab,58.33,16.67,DETAINED
+24CS0149,Shreya Reddy,B,CS104,Programming in C,50.00,25.00,DETAINED
+24CS0149,Shreya Reddy,B,CS113,Software Engineering,50.00,25.00,DETAINED
+24CS0150,Pooja Desai,B,CS110,Database Management Systems,72.00,3.00,CONDONABLE
+24CS0150,Pooja Desai,B,CS195,DBMS Lab,70.83,4.17,CONDONABLE
+24CS0150,Pooja Desai,B,CS102,Physics for Engineers,69.23,5.77,DETAINED
+24CS0150,Pooja Desai,B,CS107,Computer Organisation,68.00,7.00,DETAINED
+24CS0150,Pooja Desai,B,CS106,Data Structures,66.66,8.34,DETAINED
+24CS0150,Pooja Desai,B,CS118,Web Technologies,61.53,13.47,DETAINED
+24CS0150,Pooja Desai,B,CS191,Physics Lab,61.53,13.47,DETAINED

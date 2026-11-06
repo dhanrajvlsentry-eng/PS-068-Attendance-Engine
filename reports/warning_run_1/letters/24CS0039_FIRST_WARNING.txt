@@ -1,0 +1,25 @@
+============================================================================
+                     INSTITUTE OF TECHNOLOGY & SCIENCE
+                         OFFICE OF THE DEAN / HOD
+============================================================================
+Date         : 30-Aug-2024
+Month Eval   : Month 1
+Student Name : Keerthi Iyer
+Student ID   : 24CS0039
+Programme    : B.Tech CSE (Semester 3, Section A)
+Subject      : OFFICIAL ATTENDANCE WARNING LETTER
+============================================================================
+
+Dear Keerthi Iyer,
+
+This is an official communication regarding your academic attendance records.
+As of 2024-08-30, your cumulative attendance is 78.67% (177 out of 225 periods held).
+
+LEVEL: FIRST ATTENDANCE WARNING (Below 80% Threshold)
+-------------------------------------------------------
+Your attendance has dropped below 80%. Please note that university regulations require
+a minimum of 75% attendance in every course to be eligible for end-semester examinations.
+You are advised to attend all upcoming classes regularly to avoid disciplinary action.
+
+Dean (Academics) / Head of Department
+============================================================================

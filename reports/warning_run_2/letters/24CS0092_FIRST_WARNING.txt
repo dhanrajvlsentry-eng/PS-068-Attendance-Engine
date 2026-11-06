@@ -1,0 +1,25 @@
+============================================================================
+                     INSTITUTE OF TECHNOLOGY & SCIENCE
+                         OFFICE OF THE DEAN / HOD
+============================================================================
+Date         : 04-Oct-2024
+Month Eval   : Month 2
+Student Name : Mohit Reddy
+Student ID   : 24CS0092
+Programme    : B.Tech ECE (Semester 3, Section B)
+Subject      : OFFICIAL ATTENDANCE WARNING LETTER
+============================================================================
+
+Dear Mohit Reddy,
+
+This is an official communication regarding your academic attendance records.
+As of 2024-10-04, your cumulative attendance is 77.55% (335 out of 432 periods held).
+
+LEVEL: FIRST ATTENDANCE WARNING (Below 80% Threshold)
+-------------------------------------------------------
+Your attendance has dropped below 80%. Please note that university regulations require
+a minimum of 75% attendance in every course to be eligible for end-semester examinations.
+You are advised to attend all upcoming classes regularly to avoid disciplinary action.
+
+Dean (Academics) / Head of Department
+============================================================================

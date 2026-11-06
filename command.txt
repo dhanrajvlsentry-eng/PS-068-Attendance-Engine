@@ -1,0 +1,107 @@
+# ===========================================================================
+# PS-068 Master Command File
+# Student Attendance and Condonation / Eligibility Engine
+# ===========================================================================
+# This single command file drives the complete end-to-end workflow:
+# 1. Dataset loading & calendar verification
+# 2. Command-driven registrations (Student, Course, OD, Condonation)
+# 3. Warning Letter Runs 1, 2, 3 across the semester
+# 4. Freeze date policy enforcement & Post-Freeze Principal Correction
+# 5. Generation of all 11 standardized reports across Sections A and B
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# STEP 1: Load Base Academic Dataset
+# ---------------------------------------------------------------------------
+LOAD_DATA data
+CALENDAR_SUMMARY
+
+# ---------------------------------------------------------------------------
+# STEP 2: Verify Dynamic Registration & Approval Commands
+# ---------------------------------------------------------------------------
+# Register a sample transfer student and elective course dynamically
+REGISTER_STUDENT 24CS0301 Dev_Patel B.Tech 5 A 2024-07-29 FALSE
+REGISTER_COURSE CS199 Advanced_Systems 3 FALSE A
+
+# Apply and Approve an On-Duty (OD) request
+APPROVE_OD OD_CMD_099 24CS0005 CS104 2024-09-12 Technical_Symposium HOD_CSE
+
+# Apply and Approve a Condonation application
+APPLY_CONDONATION APP_CMD_001 24CS0015 CS108 MEDICAL 2024-08-19 2024-08-21 Hospitalization MED-CERT-CMD01 2024-08-23
+APPROVE_CONDONATION APP_CMD_001 PRINCIPAL 2024-08-25
+
+# ---------------------------------------------------------------------------
+# STEP 3: Monthly Warning Letter Evaluations (Runs 1, 2, 3)
+# ---------------------------------------------------------------------------
+# Month 1 Warning Run (~Week 5 cut-off)
+GENERATE_WARNING_LETTERS 2024-08-30 1 reports/warning_run_1
+
+# Month 2 Warning Run (~Week 10 cut-off)
+GENERATE_WARNING_LETTERS 2024-10-04 2 reports/warning_run_2
+
+# Month 3 Warning Run (~Week 14 cut-off, flags 3-month Parent Meeting)
+GENERATE_WARNING_LETTERS 2024-10-25 3 reports/warning_run_3
+
+# ---------------------------------------------------------------------------
+# STEP 4: Post-Freeze Attendance Correction via Principal Authorization
+# ---------------------------------------------------------------------------
+# Freeze Date is 2024-10-28 (7 days before exam start on 2024-11-04).
+# A post-freeze modification on 2024-10-30 requires authorized Principal credentials
+PRINCIPAL_CORRECTION 24CS0001 CS101 2024-10-30 1 PRESENT PRINCIPAL Authorized_Principal_Correction_Post_Freeze
+
+# ---------------------------------------------------------------------------
+# STEP 5: Generate All 11 Standardized Project Reports
+# ---------------------------------------------------------------------------
+
+# Report 1: Attendance Register (Section A and Section B)
+GENERATE_ATTENDANCE_REPORT reports/attendance_register_secA.csv section=A
+GENERATE_ATTENDANCE_REPORT reports/attendance_register_secB.csv section=B
+
+# Report 2: Course-Wise Attendance Percentages (Section A and Section B)
+GENERATE_COURSE_WISE_REPORT reports/course_wise_attendance_secA.csv section=A
+GENERATE_COURSE_WISE_REPORT reports/course_wise_attendance_secB.csv section=B
+
+# Report 3: Overall Attendance Percentages (Section A and Section B)
+GENERATE_OVERALL_REPORT reports/overall_attendance_secA.csv section=A
+GENERATE_OVERALL_REPORT reports/overall_attendance_secB.csv section=B
+
+# Report 4: Eligibility List (Section A, Section B, and Overall)
+GENERATE_ELIGIBILITY_REPORT reports/eligibility_secA.csv section=A
+GENERATE_ELIGIBILITY_REPORT reports/eligibility_secB.csv section=B
+GENERATE_ELIGIBILITY_REPORT reports/eligibility_all.csv
+
+# Report 5: Shortage List (Attendance < 75% for Section A and Section B)
+GENERATE_SHORTAGE_REPORT reports/shortage_secA.csv section=A
+GENERATE_SHORTAGE_REPORT reports/shortage_secB.csv section=B
+
+# Report 6: Condonation Application Status Report
+GENERATE_CONDONATION_STATUS_REPORT reports/condonation_status_report.csv
+
+# Report 7: Condonation Fee Report (₹500 / ₹1,000 per condonable course)
+GENERATE_FEE_REPORT reports/condonation_fee_report.csv
+
+# Report 8: Absence Fine Report (₹100/day for streaks >= 3 days)
+GENERATE_FINE_REPORT reports/absence_fine_report.csv
+
+# Report 9: Warning Letters Summary
+GENERATE_WARNING_LETTERS_REPORT reports/warning_letters_summary.csv
+
+# Report 10: Parent Meeting Flags (Students <75% for 3 consecutive months)
+GENERATE_PARENT_MEETING_REPORT reports/parent_meeting_flags.csv
+
+# Report 11: Attendance Correction Audit Log
+GENERATE_AUDIT_LOG reports/attendance_correction_audit_log.csv
+
+# ---------------------------------------------------------------------------
+# STEP 6: Full Condonation Engine Summaries
+# ---------------------------------------------------------------------------
+SHOW_SECTION_ATTENDANCE A
+SHOW_SECTION_ATTENDANCE B
+SHOW_CONDONATION_SECTION A
+SHOW_CONDONATION_SECTION B
+
+GENERATE_CONDONATION_REPORT A reports/section_A_condonation.csv
+GENERATE_CONDONATION_REPORT B reports/section_B_condonation.csv
+GENERATE_CONDONATION_REPORT ALL reports/all_sections_condonation.csv
+
+EXIT

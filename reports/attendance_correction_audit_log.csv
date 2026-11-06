@@ -1,0 +1,2 @@
+log_id,timestamp,student_id,course_id,record_date,period_no,old_status,new_status,authorized_by,reason,is_post_freeze
+LOG-0001,2026-11-05 21:09:07,24CS0001,CS101,2024-10-30,1,NONE,PRESENT,PRINCIPAL,Authorized_Principal_Correction_Post_Freeze,YES
