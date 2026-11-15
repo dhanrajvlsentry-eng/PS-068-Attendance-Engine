@@ -34,6 +34,14 @@ from src.warning_manager import WarningManager
 logger = logging.getLogger(__name__)
 
 
+def _match_section(actual: str, target: Optional[str]) -> bool:
+    if not target:
+        return True
+    act = actual.upper()
+    tgt = target.upper()
+    return act == tgt or act.endswith(tgt) or f"-{tgt}" in act or tgt in act
+
+
 class ReportGenerator:
     """
     Coordinates and renders all 11 reports with multi-criteria filtering.
@@ -52,6 +60,20 @@ class ReportGenerator:
         self._audit_logs = audit_logs
 
     # ------------------------------------------------------------------
+    # Section helpers
+    # ------------------------------------------------------------------
+
+    def available_sections(self) -> List[str]:
+        """Return distinct section identifiers present across all registered students."""
+        return sorted({s.section for s in self._calc._stu.all_students() if s.section})
+
+    def has_section(self, section: Optional[str]) -> bool:
+        """Check if any student matches the given section filter."""
+        if not section:
+            return True
+        return any(_match_section(s.section, section) for s in self._calc._stu.all_students())
+
+    # ------------------------------------------------------------------
     # Filter helper
     # ------------------------------------------------------------------
 
@@ -66,7 +88,7 @@ class ReportGenerator:
         if student_id:
             res = [s for s in res if s.student_id.upper() == student_id.upper()]
         if section:
-            res = [s for s in res if s.section.upper() == section.upper()]
+            res = [s for s in res if _match_section(s.section, section)]
         if semester is not None:
             res = [s for s in res if s.semester == semester]
         return res
@@ -84,6 +106,8 @@ class ReportGenerator:
         up_to_date: Optional[date] = None,
         semester: Optional[int] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section, semester)
         student_ids = {s.student_id for s in students}
@@ -123,6 +147,8 @@ class ReportGenerator:
         up_to_date: Optional[date] = None,
         semester: Optional[int] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section, semester)
 
@@ -159,6 +185,8 @@ class ReportGenerator:
         up_to_date: Optional[date] = None,
         semester: Optional[int] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section, semester)
 
@@ -192,6 +220,8 @@ class ReportGenerator:
         up_to_date: Optional[date] = None,
         semester: Optional[int] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section, semester)
 
@@ -227,6 +257,8 @@ class ReportGenerator:
         up_to_date: Optional[date] = None,
         semester: Optional[int] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section, semester)
 
@@ -262,6 +294,8 @@ class ReportGenerator:
         section: Optional[str] = None,
         status_filter: Optional[str] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         count = 0
         with open(output_path, "w", newline="", encoding="utf-8") as fh:
@@ -275,7 +309,7 @@ class ReportGenerator:
                 s = self._cond._stu.get(app.student_id)
                 if student_id and app.student_id.upper() != student_id.upper():
                     continue
-                if section and s and s.section.upper() != section.upper():
+                if section and s and not _match_section(s.section, section):
                     continue
                 if status_filter and app.status.value.upper() != status_filter.upper():
                     continue
@@ -308,6 +342,8 @@ class ReportGenerator:
         section: Optional[str] = None,
         up_to_date: Optional[date] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section)
 
@@ -342,6 +378,8 @@ class ReportGenerator:
         section: Optional[str] = None,
         up_to_date: Optional[date] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         students = self._filter_students(self._calc._stu.all_students(), student_id, section)
 
@@ -373,6 +411,8 @@ class ReportGenerator:
         student_id: Optional[str] = None,
         section: Optional[str] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         count = 0
         with open(output_path, "w", newline="", encoding="utf-8") as fh:
@@ -385,7 +425,7 @@ class ReportGenerator:
             for l in self._warn.all_letters:
                 if student_id and l.student_id.upper() != student_id.upper():
                     continue
-                if section and l.section.upper() != section.upper():
+                if section and not _match_section(l.section, section):
                     continue
                 writer.writerow([
                     l.letter_id, l.student_id, l.student_name, l.section,
@@ -405,6 +445,8 @@ class ReportGenerator:
         output_path: Path,
         section: Optional[str] = None,
     ) -> int:
+        if section and not self.has_section(section):
+            return 0
         output_path.parent.mkdir(parents=True, exist_ok=True)
         count = 0
         with open(output_path, "w", newline="", encoding="utf-8") as fh:
@@ -414,7 +456,7 @@ class ReportGenerator:
                 "month_3_attendance_pct", "reason"
             ])
             for f in self._warn.parent_meeting_flags:
-                if section and f.section.upper() != section.upper():
+                if section and not _match_section(f.section, section):
                     continue
                 writer.writerow([
                     f.student_id, f.student_name, f.section, f.flagged_date,

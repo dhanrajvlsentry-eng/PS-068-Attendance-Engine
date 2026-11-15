@@ -357,27 +357,28 @@ class CondonationEngine:
         for app in apps:
             if app.reason != ApplicationType.MEDICAL:
                 continue
-            cid = app.course_id
-            raw_cs = raw_by_course.get(cid)
-            if raw_cs is None:
-                continue
-            # Count conducted and attended periods in the medical date range
-            med_periods, med_attended = self._count_medical_in_range(
-                student, cid, app.start_date, app.end_date, cutoff
-            )
-            # C2: apply 15% cap on original conducted periods
-            cap = _floor_pct(raw_cs.conducted_periods, MEDICAL_CAP_PCT)
-            already_removed = medical_removed[cid]
-            can_remove = max(0, cap - already_removed)
-            to_remove = min(med_periods, can_remove)
-            # Scale or cap attended removal proportionally if capped
-            if med_periods > 0:
-                att_to_remove = min(med_attended, to_remove)
-            else:
-                att_to_remove = 0
+            target_courses = [app.course_id] if (app.course_id and app.course_id != "*") else list(raw_by_course.keys())
+            for cid in target_courses:
+                raw_cs = raw_by_course.get(cid)
+                if raw_cs is None:
+                    continue
+                # Count conducted and attended periods in the medical date range
+                med_periods, med_attended = self._count_medical_in_range(
+                    student, cid, app.start_date, app.end_date, cutoff
+                )
+                # C2: apply 15% cap on original conducted periods
+                cap = _floor_pct(raw_cs.conducted_periods, MEDICAL_CAP_PCT)
+                already_removed = medical_removed[cid]
+                can_remove = max(0, cap - already_removed)
+                to_remove = min(med_periods, can_remove)
+                # Scale or cap attended removal proportionally if capped
+                if med_periods > 0:
+                    att_to_remove = min(med_attended, to_remove)
+                else:
+                    att_to_remove = 0
 
-            medical_removed[cid] += to_remove
-            medical_present_removed[cid] += att_to_remove
+                medical_removed[cid] += to_remove
+                medical_present_removed[cid] += att_to_remove
 
         # Step 3: Compute post-medical counts per course
         post_conducted: Dict[str, int] = {}
@@ -408,42 +409,43 @@ class CondonationEngine:
         ]
 
         for app in duty_apps:
-            cid = app.course_id
+            target_courses = [app.course_id] if (app.course_id and app.course_id != "*") else list(raw_by_course.keys())
             is_sports_ncc = app.reason in (ApplicationType.SPORTS, ApplicationType.NCC_NSS)
 
-            # Count absent periods in the duty range for this course
-            duty_periods, duty_days = self._count_absent_in_range(
-                student, cid, app.start_date, app.end_date, cutoff
-            )
-            if duty_periods == 0:
-                continue
-
-            # Overall 20-day cap for SPORTS / NCC_NSS
-            if is_sports_ncc:
-                days_available = DUTY_OVERALL_CAP_DAYS - duty_days_used
-                if days_available <= 0:
-                    continue
-                # Clip duty_days to remaining cap
-                if duty_days > days_available:
-                    duty_periods, duty_days = self._count_absent_in_range(
-                        student, cid, app.start_date, app.end_date, cutoff,
-                        max_days=days_available
-                    )
-
-            # Per-course 10% cap on post-medical conducted periods for SPORTS / NCC_NSS
-            if is_sports_ncc:
-                pc = post_conducted.get(cid, 0)
-                course_cap = _floor_pct(pc, DUTY_COURSE_CAP_PCT)
-                already_added = duty_added.get(cid, 0)
-                can_add = max(0, course_cap - already_added)
-                duty_periods = min(duty_periods, can_add)
+            for cid in target_courses:
+                # Count absent periods in the duty range for this course
+                duty_periods, duty_days = self._count_absent_in_range(
+                    student, cid, app.start_date, app.end_date, cutoff
+                )
                 if duty_periods == 0:
                     continue
 
-            # Apply the duty
-            duty_added[cid] += duty_periods
-            if is_sports_ncc:
-                duty_days_used += duty_days
+                # Overall 20-day cap for SPORTS / NCC_NSS
+                if is_sports_ncc:
+                    days_available = DUTY_OVERALL_CAP_DAYS - duty_days_used
+                    if days_available <= 0:
+                        continue
+                    # Clip duty_days to remaining cap
+                    if duty_days > days_available:
+                        duty_periods, duty_days = self._count_absent_in_range(
+                            student, cid, app.start_date, app.end_date, cutoff,
+                            max_days=days_available
+                        )
+
+                # Per-course 10% cap on post-medical conducted periods for SPORTS / NCC_NSS
+                if is_sports_ncc:
+                    pc = post_conducted.get(cid, 0)
+                    course_cap = _floor_pct(pc, DUTY_COURSE_CAP_PCT)
+                    already_added = duty_added.get(cid, 0)
+                    can_add = max(0, course_cap - already_added)
+                    duty_periods = min(duty_periods, can_add)
+                    if duty_periods == 0:
+                        continue
+
+                # Apply the duty
+                duty_added[cid] += duty_periods
+                if is_sports_ncc:
+                    duty_days_used += duty_days
 
         # Step 6: Final per-course counts and percentages
         course_details: List[CourseCondonationDetail] = []
@@ -470,7 +472,7 @@ class CondonationEngine:
             if med_rem > 0:
                 applied_types.append(ApplicationType.MEDICAL)
             for app in apps:
-                if app.course_id == cid and app.reason != ApplicationType.MEDICAL:
+                if (app.course_id == cid or app.course_id == "*") and app.reason != ApplicationType.MEDICAL:
                     if duty_added.get(cid, 0) > 0:
                         applied_types.append(app.reason)
 

@@ -415,19 +415,34 @@ def make_handlers(state: AppState) -> dict:
         state.placement  = data["placement"]
         state.condonation = data["condonation"]
 
-        # Derive semester bounds from calendar
+        # Derive semester bounds from calendar or semester.csv
+        sem_path = data_dir / "semester.csv"
+        if sem_path.exists():
+            sem_data = {}
+            with open(sem_path, newline="", encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    sem_data[row["key"].strip()] = row["value"].strip()
+            if "semester_start" in sem_data:
+                state.semester_start = parse_date_arg(sem_data["semester_start"])
+            if "semester_end" in sem_data:
+                state.semester_end = parse_date_arg(sem_data["semester_end"])
+            if "exam_start_date" in sem_data:
+                state.exam_start = parse_date_arg(sem_data["exam_start_date"])
+
         working = [
             d for d, e in state.calendar.items()
             if e.day_type in (DayType.WORKING, DayType.WORKING_SATURDAY)
         ]
         if working:
-            state.semester_start = min(working)
-            state.semester_end   = max(working)
+            if not state.semester_start:
+                state.semester_start = min(working)
+            if not state.semester_end:
+                state.semester_end   = max(working)
         exam_days = [
             d for d, e in state.calendar.items()
             if e.day_type == DayType.EXAM
         ]
-        if exam_days:
+        if exam_days and not state.exam_start:
             state.exam_start = min(exam_days)
 
         state.mark_dirty()
@@ -577,10 +592,11 @@ def make_handlers(state: AppState) -> dict:
     def handle_show_section_attendance(args):
         require_args(args, 1, "SHOW_SECTION_ATTENDANCE")
         section = args[0].upper()
+        if not state.report_gen.has_section(section):
+            return
         up_to   = parse_optional_date(args, 1)
         summaries = state.calculator.calculate_for_section(section, up_to)
         if not summaries:
-            print(f"No students found in section {section}.")
             return
         print(f"\n{'='*80}")
         print(f"SECTION {section} ATTENDANCE REPORT"
@@ -624,6 +640,8 @@ def make_handlers(state: AppState) -> dict:
         out_file = Path(args[3]) if len(args) > 3 else None
 
         if report_type == "SECTION" and section:
+            if not state.report_gen.has_section(section):
+                return
             summaries = state.calculator.calculate_for_section(section, up_to)
         elif report_type == "ALL":
             summaries = state.calculator.calculate_all(up_to)
@@ -679,10 +697,11 @@ def make_handlers(state: AppState) -> dict:
     def handle_show_condonation_section(args):
         require_args(args, 1, "SHOW_CONDONATION_SECTION")
         section = args[0].upper()
+        if not state.report_gen.has_section(section):
+            return
         up_to = parse_optional_date(args, 1)
         results = state.cond_engine.process_section(section, up_to)
         if not results:
-            print(f"No students found in section {section}.")
             return
         print(f"\n{'='*80}")
         print(f"SECTION {section} CONDONATION & ELIGIBILITY REPORT"
@@ -705,6 +724,8 @@ def make_handlers(state: AppState) -> dict:
     def handle_generate_condonation_report(args):
         require_args(args, 1, "GENERATE_CONDONATION_REPORT")
         target = args[0].upper()
+        if target != "ALL" and not state.report_gen.has_section(target):
+            return
         up_to = None
         out_file = None
         if len(args) > 1:
@@ -890,6 +911,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/attendance_register.csv"))
         sec = flags.get("section", pos[1] if len(pos) > 1 else None)
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         cid = flags.get("course")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
@@ -910,6 +933,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/eligibility_report.csv"))
         sec = flags.get("section", pos[1] if len(pos) > 1 else None)
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
         sem = int(flags["semester"]) if "semester" in flags else None
@@ -928,6 +953,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/shortage_report.csv"))
         sec = flags.get("section", pos[1] if len(pos) > 1 else None)
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         cid = flags.get("course")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
@@ -955,6 +982,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/condonation_fee_report.csv"))
         sec = flags.get("section")
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
         count = state.report_gen.generate_fee_report(out_path, student_id=sid, section=sec, up_to_date=date_cutoff)
@@ -965,6 +994,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/absence_fine_report.csv"))
         sec = flags.get("section")
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
         count = state.report_gen.generate_fine_report(out_path, student_id=sid, section=sec, up_to_date=date_cutoff)
@@ -975,6 +1006,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/parent_meeting_flags.csv"))
         sec = flags.get("section")
+        if sec and not state.report_gen.has_section(sec):
+            return
         count = state.report_gen.generate_parent_meeting_report(out_path, section=sec)
         print(f"Generated Parent Meeting Report: {out_path} ({count} flagged students)")
 
@@ -983,6 +1016,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/course_wise_attendance.csv"))
         sec = flags.get("section", pos[1] if len(pos) > 1 else None)
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         cid = flags.get("course")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
@@ -1003,6 +1038,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/overall_attendance.csv"))
         sec = flags.get("section", pos[1] if len(pos) > 1 else None)
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         date_cutoff = parse_date_arg(flags["date"]) if "date" in flags else None
         sem = int(flags["semester"]) if "semester" in flags else None
@@ -1021,6 +1058,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/condonation_status_report.csv"))
         sec = flags.get("section")
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
         status_filter = flags.get("status")
 
@@ -1037,6 +1076,8 @@ def make_handlers(state: AppState) -> dict:
         pos, flags = _parse_flags(args)
         out_path = Path(flags.get("out", pos[0] if pos else "reports/warning_letters_summary.csv"))
         sec = flags.get("section")
+        if sec and not state.report_gen.has_section(sec):
+            return
         sid = flags.get("student")
 
         count = state.report_gen.generate_warning_letters_report(

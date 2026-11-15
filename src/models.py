@@ -74,6 +74,7 @@ class Student:
     section:        str          # e.g. "A", "B", "C", "D"
     admission_date: date
     is_lateral:     bool = False  # lateral-entry students joined in semester 3
+    parent_mobile:  Optional[str] = None
 
     def __post_init__(self):
         if isinstance(self.admission_date, str):
@@ -95,6 +96,7 @@ class Course:
     weekly_periods:     int       # periods per week (theory: 3-4, lab: 2 slots = 4 periods)
     is_lab:             bool = False
     section:            str = ""  # section this course is assigned to (can be empty for all)
+    faculty_id:         Optional[str] = None
 
     def period_weight(self) -> int:
         """Lab sessions count as 2 periods each slot."""
@@ -146,6 +148,7 @@ class AttendanceRecord:
     status:         AttendanceStatus
     arrival_time:   Optional[time] = None   # used for LATE validation
     faculty_id:     Optional[str]  = None   # None → period not conducted
+    arrival_minute: Optional[int]  = None   # minutes late from period start
 
     def __post_init__(self):
         if isinstance(self.status, str):
@@ -179,6 +182,7 @@ class PlacementEvent:
     event_date:  date
     company:     str
     student_ids: list = field(default_factory=list)   # students attending
+    eligible_programmes: list = field(default_factory=list)
 
     def __post_init__(self):
         if isinstance(self.event_date, str):

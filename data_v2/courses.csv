@@ -1,0 +1,25 @@
+course_code,course_name,section_id,weekly_periods,lab,faculty_id
+CS501,Software Engineering,SEC-CS5A,2,false,FAC-001
+CS502,Computer Networks,SEC-CS5A,2,false,FAC-002
+CS503,Theory of Computation,SEC-CS5A,2,false,FAC-003
+CS504,Artificial Intelligence,SEC-CS5A,2,false,FAC-004
+CS505,Environmental Studies,SEC-CS5A,1,false,FAC-005
+CS506L,Networks Lab,SEC-CS5A,1,true,FAC-006
+IS501,Software Testing,SEC-IS5A,2,false,FAC-007
+IS502,Web Technologies,SEC-IS5A,2,false,FAC-008
+IS503,Automata Theory,SEC-IS5A,2,false,FAC-009
+IS504,Database Systems,SEC-IS5A,2,false,FAC-010
+IS505,Research Methodology,SEC-IS5A,1,false,FAC-011
+IS506L,Web Lab,SEC-IS5A,1,true,FAC-012
+EC301,Network Analysis,SEC-EC3A,2,false,FAC-013
+EC302,Analog Circuits,SEC-EC3A,2,false,FAC-014
+EC303,Digital Design,SEC-EC3A,2,false,FAC-015
+EC304,Signals and Systems,SEC-EC3A,2,false,FAC-016
+EC305,Engineering Mathematics III,SEC-EC3A,1,false,FAC-017
+EC306L,Analog Lab,SEC-EC3A,1,true,FAC-018
+ME701,Finite Element Methods,SEC-ME7A,2,false,FAC-019
+ME702,Mechatronics,SEC-ME7A,2,false,FAC-020
+ME703,Operations Research,SEC-ME7A,2,false,FAC-021
+ME704,Automobile Engineering,SEC-ME7A,2,false,FAC-022
+ME705,Project Management,SEC-ME7A,1,false,FAC-023
+ME706L,CAD Lab,SEC-ME7A,1,true,FAC-024

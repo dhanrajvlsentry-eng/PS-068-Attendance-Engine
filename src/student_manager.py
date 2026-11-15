@@ -48,7 +48,20 @@ class StudentManager:
         return list(self._students.values())
 
     def by_section(self, section: str) -> List[Student]:
-        return self._by_section.get(section.upper(), [])
+        sec = section.upper()
+        seen = set()
+        matches = []
+        for s in self._by_section.get(sec, []):
+            if s.student_id not in seen:
+                seen.add(s.student_id)
+                matches.append(s)
+        for s_sec, stu_list in self._by_section.items():
+            if s_sec != sec and (s_sec.endswith(sec) or s_sec.endswith("-" + sec) or f"-{sec}" in s_sec):
+                for s in stu_list:
+                    if s.student_id not in seen:
+                        seen.add(s.student_id)
+                        matches.append(s)
+        return matches
 
     def sections(self) -> List[str]:
         return sorted(self._by_section.keys())

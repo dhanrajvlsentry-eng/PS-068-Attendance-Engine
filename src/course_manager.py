@@ -44,16 +44,24 @@ class CourseManager:
     def for_section(self, section: str) -> List[Course]:
         """Return courses offered to a specific section plus any global courses."""
         section = section.upper()
-        specific = self._by_section.get(section, [])
-        global_  = self._by_section.get("", [])
-        # Deduplicate by course_id
+        specific = []
         seen = set()
-        result = []
-        for c in specific + global_:
+        for c in self._by_section.get(section, []):
             if c.course_id not in seen:
                 seen.add(c.course_id)
-                result.append(c)
-        return result
+                specific.append(c)
+        for s_sec, c_list in self._by_section.items():
+            if s_sec and s_sec != section and (s_sec.endswith(section) or s_sec.endswith("-" + section) or f"-{section}" in s_sec):
+                for c in c_list:
+                    if c.course_id not in seen:
+                        seen.add(c.course_id)
+                        specific.append(c)
+        global_  = self._by_section.get("", [])
+        for c in global_:
+            if c.course_id not in seen:
+                seen.add(c.course_id)
+                specific.append(c)
+        return specific
 
     def is_lab(self, course_id: str) -> bool:
         c = self._courses.get(course_id)

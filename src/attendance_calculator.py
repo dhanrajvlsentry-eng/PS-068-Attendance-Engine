@@ -199,7 +199,12 @@ class AttendanceCalculator:
             # R5: LATE → PRESENT within grace window
             elif status == AttendanceStatus.LATE:
                 late_raw += 1
-                if self._is_within_grace(student.section, d, rec.period_no, course.course_id, rec.arrival_time):
+                if rec.arrival_minute is not None:
+                    if rec.arrival_minute <= LATE_GRACE_MINUTES:
+                        present += weight
+                    else:
+                        absent  += weight
+                elif self._is_within_grace(student.section, d, rec.period_no, course.course_id, rec.arrival_time):
                     present += weight
                 else:
                     absent  += weight

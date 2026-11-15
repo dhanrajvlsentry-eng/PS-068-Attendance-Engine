@@ -1,0 +1,5 @@
+section_id,programme,semester,final_year
+SEC-CS5A,CSE,5,false
+SEC-IS5A,ISE,5,false
+SEC-EC3A,ECE,3,false
+SEC-ME7A,MECH,7,true
