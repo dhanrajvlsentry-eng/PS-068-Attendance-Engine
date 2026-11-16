@@ -65,10 +65,9 @@ GENERATE_COURSE_WISE_REPORT reports/course_wise_attendance_secB.csv section=B
 GENERATE_OVERALL_REPORT reports/overall_attendance_secA.csv section=A
 GENERATE_OVERALL_REPORT reports/overall_attendance_secB.csv section=B
 
-# Report 4: Eligibility List (Section A, Section B, and Overall)
+# Report 4: Eligibility List (Section A and Section B)
 GENERATE_ELIGIBILITY_REPORT reports/eligibility_secA.csv section=A
 GENERATE_ELIGIBILITY_REPORT reports/eligibility_secB.csv section=B
-GENERATE_ELIGIBILITY_REPORT reports/eligibility_all.csv
 
 # Report 5: Shortage List (Attendance < 75% for Section A and Section B)
 GENERATE_SHORTAGE_REPORT reports/shortage_secA.csv section=A
@@ -102,6 +101,5 @@ SHOW_CONDONATION_SECTION B
 
 GENERATE_CONDONATION_REPORT A reports/section_A_condonation.csv
 GENERATE_CONDONATION_REPORT B reports/section_B_condonation.csv
-GENERATE_CONDONATION_REPORT ALL reports/all_sections_condonation.csv
 
 EXIT
